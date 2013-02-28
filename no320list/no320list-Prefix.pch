@@ -12,3 +12,9 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#import "Bee.h"
+
+#define BEE_DEVELOPMENT (1)
+#define BEE_LOG (1) 
+#define BEE_DEBUGGER (1)

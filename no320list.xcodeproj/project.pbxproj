@@ -16,6 +16,176 @@
 		252091B316DBA58500767E16 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 252091B216DBA58500767E16 /* Default.png */; };
 		252091B516DBA58500767E16 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 252091B416DBA58500767E16 /* Default@2x.png */; };
 		252091B716DBA58500767E16 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 252091B616DBA58500767E16 /* Default-568h@2x.png */; };
+		2520929D16DBAAE300767E16 /* ASIHTTPRequest+Bee.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091C016DBAAE300767E16 /* ASIHTTPRequest+Bee.m */; };
+		2520929E16DBAAE300767E16 /* Bee_Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091C216DBAAE300767E16 /* Bee_Debug.m */; };
+		2520929F16DBAAE300767E16 /* Bee_DebugCrashReporter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 252091C416DBAAE300767E16 /* Bee_DebugCrashReporter.mm */; };
+		252092A016DBAAE300767E16 /* Bee_DebugDashBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091C616DBAAE300767E16 /* Bee_DebugDashBoard.m */; };
+		252092A116DBAAE300767E16 /* Bee_DebugDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091C816DBAAE300767E16 /* Bee_DebugDetailView.m */; };
+		252092A216DBAAE300767E16 /* Bee_DebugHeatmapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091CA16DBAAE300767E16 /* Bee_DebugHeatmapModel.m */; };
+		252092A316DBAAE300767E16 /* Bee_DebugMemoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091CC16DBAAE300767E16 /* Bee_DebugMemoryModel.m */; };
+		252092A416DBAAE300767E16 /* Bee_DebugMessageBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091CE16DBAAE300767E16 /* Bee_DebugMessageBoard.m */; };
+		252092A516DBAAE300767E16 /* Bee_DebugMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091D016DBAAE300767E16 /* Bee_DebugMessageModel.m */; };
+		252092A616DBAAE300767E16 /* Bee_DebugNetworkBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091D216DBAAE300767E16 /* Bee_DebugNetworkBoard.m */; };
+		252092A716DBAAE300767E16 /* Bee_DebugNetworkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091D416DBAAE300767E16 /* Bee_DebugNetworkModel.m */; };
+		252092A816DBAAE300767E16 /* Bee_DebugPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091D616DBAAE300767E16 /* Bee_DebugPieView.m */; };
+		252092A916DBAAE300767E16 /* Bee_DebugPlotsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091D816DBAAE300767E16 /* Bee_DebugPlotsView.m */; };
+		252092AA16DBAAE300767E16 /* Bee_DebugSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091DA16DBAAE300767E16 /* Bee_DebugSampleView.m */; };
+		252092AB16DBAAE300767E16 /* Bee_DebugSandboxBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091DC16DBAAE300767E16 /* Bee_DebugSandboxBoard.m */; };
+		252092AC16DBAAE300767E16 /* Bee_DebugUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091DE16DBAAE300767E16 /* Bee_DebugUtility.m */; };
+		252092AD16DBAAE300767E16 /* Bee_DebugViewBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091E016DBAAE300767E16 /* Bee_DebugViewBoard.m */; };
+		252092AE16DBAAE300767E16 /* Bee_DebugViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091E216DBAAE300767E16 /* Bee_DebugViewModel.m */; };
+		252092AF16DBAAE300767E16 /* Bee_DebugWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091E416DBAAE300767E16 /* Bee_DebugWindow.m */; };
+		252092B016DBAAE300767E16 /* bug@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 252091E516DBAAE300767E16 /* bug@2x.png */; };
+		252092B116DBAAE300767E16 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 252091E616DBAAE300767E16 /* close@2x.png */; };
+		252092B216DBAAE300767E16 /* file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 252091E716DBAAE300767E16 /* file@2x.png */; };
+		252092B316DBAAE300767E16 /* folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 252091E816DBAAE300767E16 /* folder@2x.png */; };
+		252092B416DBAAE300767E16 /* heat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 252091E916DBAAE300767E16 /* heat@2x.png */; };
+		252092B516DBAAE300767E16 /* tap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 252091EA16DBAAE300767E16 /* tap@2x.png */; };
+		252092B616DBAAE300767E16 /* Bee_Foundation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 252091F216DBAAE300767E16 /* Bee_Foundation.mm */; };
+		252092B716DBAAE300767E16 /* Bee_Log.mm in Sources */ = {isa = PBXBuildFile; fileRef = 252091F416DBAAE300767E16 /* Bee_Log.mm */; };
+		252092B816DBAAE300767E16 /* Bee_Performance.mm in Sources */ = {isa = PBXBuildFile; fileRef = 252091F616DBAAE300767E16 /* Bee_Performance.mm */; };
+		252092B916DBAAE300767E16 /* Bee_Runtime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 252091F816DBAAE300767E16 /* Bee_Runtime.mm */; };
+		252092BA16DBAAE300767E16 /* Bee_Sandbox.mm in Sources */ = {isa = PBXBuildFile; fileRef = 252091FA16DBAAE300767E16 /* Bee_Sandbox.mm */; };
+		252092BB16DBAAE300767E16 /* Bee_Singleton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 252091FC16DBAAE300767E16 /* Bee_Singleton.mm */; };
+		252092BC16DBAAE300767E16 /* Bee_SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 252091FE16DBAAE300767E16 /* Bee_SystemInfo.m */; };
+		252092BD16DBAAE300767E16 /* Bee_Thread.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520920016DBAAE300767E16 /* Bee_Thread.mm */; };
+		252092BE16DBAAE300767E16 /* NSArray+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520920316DBAAE300767E16 /* NSArray+BeeExtension.m */; };
+		252092BF16DBAAE300767E16 /* NSData+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520920516DBAAE300767E16 /* NSData+BeeExtension.m */; };
+		252092C016DBAAE300767E16 /* NSDate+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520920716DBAAE300767E16 /* NSDate+BeeExtension.m */; };
+		252092C116DBAAE300767E16 /* NSDictionary+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520920916DBAAE300767E16 /* NSDictionary+BeeExtension.m */; };
+		252092C216DBAAE300767E16 /* NSNumber+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520920B16DBAAE300767E16 /* NSNumber+BeeExtension.m */; };
+		252092C316DBAAE300767E16 /* NSObject+BeeNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520920D16DBAAE300767E16 /* NSObject+BeeNotification.m */; };
+		252092C416DBAAE300767E16 /* NSObject+BeeProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520920F16DBAAE300767E16 /* NSObject+BeeProperty.m */; };
+		252092C516DBAAE300767E16 /* NSObject+BeeTicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520921116DBAAE300767E16 /* NSObject+BeeTicker.m */; };
+		252092C616DBAAE300767E16 /* NSObject+BeeTypeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520921316DBAAE300767E16 /* NSObject+BeeTypeConversion.m */; };
+		252092C716DBAAE300767E16 /* NSString+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520921516DBAAE300767E16 /* NSString+BeeExtension.m */; };
+		252092C816DBAAE300767E16 /* Bee_Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520921816DBAAE300767E16 /* Bee_Network.m */; };
+		252092C916DBAAE300767E16 /* Bee_Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520921A16DBAAE300767E16 /* Bee_Request.m */; };
+		252092CA16DBAAE300767E16 /* Bee_RequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520921C16DBAAE300767E16 /* Bee_RequestQueue.m */; };
+		252092CB16DBAAE300767E16 /* NSObject+BeeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520921F16DBAAE300767E16 /* NSObject+BeeRequest.m */; };
+		252092CC16DBAAE300767E16 /* Bee_ActiveBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520922216DBAAE300767E16 /* Bee_ActiveBase.m */; };
+		252092CD16DBAAE300767E16 /* Bee_ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520922416DBAAE300767E16 /* Bee_ActiveRecord.m */; };
+		252092CE16DBAAE300767E16 /* Bee_Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520922616DBAAE300767E16 /* Bee_Cache.m */; };
+		252092CF16DBAAE300767E16 /* Bee_Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520922816DBAAE300767E16 /* Bee_Database.m */; };
+		252092D016DBAAE300767E16 /* Bee_Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520922A16DBAAE300767E16 /* Bee_Keychain.m */; };
+		252092D116DBAAE300767E16 /* Bee_Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520922C16DBAAE300767E16 /* Bee_Storage.m */; };
+		252092D216DBAAE300767E16 /* NSObject+BeeDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520922F16DBAAE300767E16 /* NSObject+BeeDatabase.m */; };
+		252092D316DBAAE300767E16 /* NSObject+BeeKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520923116DBAAE300767E16 /* NSObject+BeeKeychain.m */; };
+		252092D416DBAAE300767E16 /* Bee_Controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520923616DBAAE300767E16 /* Bee_Controller.mm */; };
+		252092D516DBAAE300767E16 /* Bee_Message.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520923816DBAAE300767E16 /* Bee_Message.mm */; };
+		252092D616DBAAE300767E16 /* Bee_MessageQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520923A16DBAAE300767E16 /* Bee_MessageQueue.mm */; };
+		252092D716DBAAE300767E16 /* BeeMessage+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520923D16DBAAE300767E16 /* BeeMessage+ActiveRecord.m */; };
+		252092D816DBAAE300767E16 /* BeeMessage+HTTP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520923F16DBAAE300767E16 /* BeeMessage+HTTP.mm */; };
+		252092D916DBAAE300767E16 /* BeeMessage+JSON.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520924116DBAAE300767E16 /* BeeMessage+JSON.mm */; };
+		252092DA16DBAAE300767E16 /* BeeMessage+XML.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520924316DBAAE300767E16 /* BeeMessage+XML.mm */; };
+		252092DB16DBAAE300767E16 /* NSObject+BeeMessage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520924516DBAAE300767E16 /* NSObject+BeeMessage.mm */; };
+		252092DC16DBAAE300767E16 /* Bee_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520924816DBAAE300767E16 /* Bee_Model.m */; };
+		252092DD16DBAAE300767E16 /* Bee_UIActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520924B16DBAAE300767E16 /* Bee_UIActionSheet.m */; };
+		252092DE16DBAAE300767E16 /* Bee_UIActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520924D16DBAAE300767E16 /* Bee_UIActivityIndicatorView.m */; };
+		252092DF16DBAAE300767E16 /* Bee_UIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520924F16DBAAE300767E16 /* Bee_UIAlertView.m */; };
+		252092E016DBAAE300767E16 /* Bee_UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520925116DBAAE300767E16 /* Bee_UIButton.m */; };
+		252092E116DBAAE300767E16 /* Bee_UIDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520925316DBAAE300767E16 /* Bee_UIDatePicker.m */; };
+		252092E216DBAAE300767E16 /* Bee_UIGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520925516DBAAE300767E16 /* Bee_UIGridCell.m */; };
+		252092E316DBAAE300767E16 /* Bee_UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520925716DBAAE300767E16 /* Bee_UIImageView.m */; };
+		252092E416DBAAE300767E16 /* Bee_UIKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520925916DBAAE300767E16 /* Bee_UIKeyboard.m */; };
+		252092E516DBAAE300767E16 /* Bee_UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520925B16DBAAE300767E16 /* Bee_UILabel.m */; };
+		252092E616DBAAE300767E16 /* Bee_UIOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520925D16DBAAE300767E16 /* Bee_UIOrientation.m */; };
+		252092E716DBAAE300767E16 /* Bee_UIPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520925F16DBAAE300767E16 /* Bee_UIPageControl.m */; };
+		252092E816DBAAE300767E16 /* Bee_UIProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520926116DBAAE300767E16 /* Bee_UIProgressView.m */; };
+		252092E916DBAAE300767E16 /* Bee_UIPullLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520926316DBAAE300767E16 /* Bee_UIPullLoader.m */; };
+		252092EA16DBAAE300767E16 /* Bee_UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520926516DBAAE300767E16 /* Bee_UIScrollView.m */; };
+		252092EB16DBAAE300767E16 /* Bee_UISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520926716DBAAE300767E16 /* Bee_UISegmentedControl.m */; };
+		252092EC16DBAAE300767E16 /* Bee_UISignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520926916DBAAE300767E16 /* Bee_UISignal.m */; };
+		252092ED16DBAAE300767E16 /* Bee_UITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520926B16DBAAE300767E16 /* Bee_UITabBar.m */; };
+		252092EE16DBAAE300767E16 /* Bee_UITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520926D16DBAAE300767E16 /* Bee_UITextField.m */; };
+		252092EF16DBAAE300767E16 /* Bee_UITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520926F16DBAAE300767E16 /* Bee_UITextView.m */; };
+		252092F016DBAAE300767E16 /* Bee_UITipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520927116DBAAE300767E16 /* Bee_UITipsView.m */; };
+		252092F116DBAAE300767E16 /* Bee_UIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520927316DBAAE300767E16 /* Bee_UIWebView.m */; };
+		252092F216DBAAE300767E16 /* Bee_UIZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520927516DBAAE300767E16 /* Bee_UIZoomView.m */; };
+		252092F316DBAAE300767E16 /* Bee_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520927716DBAAE300767E16 /* Bee_View.m */; };
+		252092F416DBAAE300767E16 /* CGRect+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520927A16DBAAE300767E16 /* CGRect+BeeExtension.m */; };
+		252092F516DBAAE300767E16 /* UIColor+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520927C16DBAAE300767E16 /* UIColor+BeeExtension.m */; };
+		252092F616DBAAE300767E16 /* UIFont+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520927E16DBAAE300767E16 /* UIFont+BeeExtension.m */; };
+		252092F716DBAAE300767E16 /* UIImage+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520928016DBAAE300767E16 /* UIImage+BeeExtension.m */; };
+		252092F816DBAAE300767E16 /* UIView+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520928216DBAAE300767E16 /* UIView+BeeExtension.m */; };
+		252092F916DBAAE300767E16 /* UIView+BeeUISignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520928416DBAAE300767E16 /* UIView+BeeUISignal.m */; };
+		252092FA16DBAAE300767E16 /* UIView+HoldGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520928616DBAAE300767E16 /* UIView+HoldGesture.m */; };
+		252092FB16DBAAE300767E16 /* UIView+PanGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520928816DBAAE300767E16 /* UIView+PanGesture.m */; };
+		252092FC16DBAAE300767E16 /* UIView+SwipeGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520928A16DBAAE300767E16 /* UIView+SwipeGesture.m */; };
+		252092FD16DBAAE300767E16 /* UIView+TapGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520928C16DBAAE300767E16 /* UIView+TapGesture.m */; };
+		252092FE16DBAAE300767E16 /* Bee_UIBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520928F16DBAAE300767E16 /* Bee_UIBoard.m */; };
+		252092FF16DBAAE300767E16 /* Bee_UIStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520929116DBAAE300767E16 /* Bee_UIStack.m */; };
+		2520930016DBAAE300767E16 /* Bee_UIStackGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520929316DBAAE300767E16 /* Bee_UIStackGroup.m */; };
+		2520930116DBAAE300767E16 /* Bee_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520929516DBAAE300767E16 /* Bee_ViewController.m */; };
+		2520930216DBAAE300767E16 /* UIViewController+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520929816DBAAE300767E16 /* UIViewController+BeeExtension.m */; };
+		2520930316DBAAE300767E16 /* UIViewController+BeeUISignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520929A16DBAAE300767E16 /* UIViewController+BeeUISignal.m */; };
+		2520930416DBAAE300767E16 /* UIViewController+UINavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520929C16DBAAE300767E16 /* UIViewController+UINavigationBar.m */; };
+		2520930616DBAB3B00767E16 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2520930516DBAB3B00767E16 /* libz.dylib */; };
+		2520930816DBAB4500767E16 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2520930716DBAB4500767E16 /* CFNetwork.framework */; };
+		2520930A16DBAB6400767E16 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2520930916DBAB6400767E16 /* MobileCoreServices.framework */; };
+		2520930C16DBAB7300767E16 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2520930B16DBAB7300767E16 /* QuartzCore.framework */; };
+		2520930E16DBAB8700767E16 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2520930D16DBAB8700767E16 /* Security.framework */; };
+		2520931016DBAB9100767E16 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2520930F16DBAB9100767E16 /* SystemConfiguration.framework */; };
+		2520933816DBAC8100767E16 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520931416DBAC8100767E16 /* ASIAuthenticationDialog.m */; };
+		2520933916DBAC8100767E16 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520931716DBAC8100767E16 /* ASIDataCompressor.m */; };
+		2520933A16DBAC8100767E16 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520931916DBAC8100767E16 /* ASIDataDecompressor.m */; };
+		2520933B16DBAC8100767E16 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520931B16DBAC8100767E16 /* ASIDownloadCache.m */; };
+		2520933C16DBAC8100767E16 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520931D16DBAC8100767E16 /* ASIFormDataRequest.m */; };
+		2520933D16DBAC8100767E16 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520931F16DBAC8100767E16 /* ASIHTTPRequest.m */; };
+		2520933E16DBAC8100767E16 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520932316DBAC8100767E16 /* ASIInputStream.m */; };
+		2520933F16DBAC8100767E16 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520932516DBAC8100767E16 /* ASINetworkQueue.m */; };
+		2520934016DBAC8100767E16 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520932916DBAC8100767E16 /* FMDatabase.m */; };
+		2520934116DBAC8100767E16 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520932B16DBAC8100767E16 /* FMDatabaseAdditions.m */; };
+		2520934216DBAC8100767E16 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520932D16DBAC8100767E16 /* FMDatabasePool.m */; };
+		2520934316DBAC8100767E16 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520932F16DBAC8100767E16 /* FMDatabaseQueue.m */; };
+		2520934416DBAC8100767E16 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520933116DBAC8100767E16 /* FMResultSet.m */; };
+		2520934516DBAC8100767E16 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520933416DBAC8100767E16 /* JSONKit.m */; };
+		2520934616DBAC8100767E16 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520933716DBAC8100767E16 /* Reachability.m */; };
+		2520936F16DBACAB00767E16 /* Bee_UnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520934916DBACAA00767E16 /* Bee_UnitTest.m */; };
+		2520937016DBACAB00767E16 /* Bee_ActiveBaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520934B16DBACAA00767E16 /* Bee_ActiveBaseTest.m */; };
+		2520937116DBACAB00767E16 /* Bee_ActiveRecordTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520934C16DBACAA00767E16 /* Bee_ActiveRecordTest.m */; };
+		2520937216DBACAB00767E16 /* Bee_CacheTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520934D16DBACAA00767E16 /* Bee_CacheTest.m */; };
+		2520937316DBACAB00767E16 /* Bee_ControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520934E16DBACAA00767E16 /* Bee_ControllerTest.m */; };
+		2520937416DBACAB00767E16 /* Bee_DatabaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520934F16DBACAA00767E16 /* Bee_DatabaseTest.m */; };
+		2520937516DBACAB00767E16 /* Bee_KeychainTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520935016DBACAA00767E16 /* Bee_KeychainTest.m */; };
+		2520937616DBACAB00767E16 /* Bee_LogTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520935116DBACAA00767E16 /* Bee_LogTest.mm */; };
+		2520937716DBACAB00767E16 /* Bee_MessageQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520935216DBACAA00767E16 /* Bee_MessageQueueTest.m */; };
+		2520937816DBACAB00767E16 /* Bee_MessageTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520935316DBACAA00767E16 /* Bee_MessageTest.m */; };
+		2520937916DBACAB00767E16 /* Bee_ModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520935416DBACAA00767E16 /* Bee_ModelTest.m */; };
+		2520937A16DBACAB00767E16 /* Bee_PerformanceTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520935516DBACAA00767E16 /* Bee_PerformanceTest.mm */; };
+		2520937B16DBACAB00767E16 /* Bee_RequestQueueTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520935616DBACAA00767E16 /* Bee_RequestQueueTest.mm */; };
+		2520937C16DBACAB00767E16 /* Bee_RequestTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520935716DBACAA00767E16 /* Bee_RequestTest.mm */; };
+		2520937D16DBACAB00767E16 /* Bee_RuntimeTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520935816DBACAA00767E16 /* Bee_RuntimeTest.mm */; };
+		2520937E16DBACAB00767E16 /* Bee_SandboxTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520935916DBACAA00767E16 /* Bee_SandboxTest.mm */; };
+		2520937F16DBACAB00767E16 /* Bee_SingletonTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520935A16DBACAA00767E16 /* Bee_SingletonTest.mm */; };
+		2520938016DBACAB00767E16 /* Bee_SystemInfoTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520935B16DBACAA00767E16 /* Bee_SystemInfoTest.mm */; };
+		2520938116DBACAB00767E16 /* Bee_ThreadTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520935C16DBACAA00767E16 /* Bee_ThreadTest.mm */; };
+		2520938216DBACAB00767E16 /* BeeMessage+ActiveRecordTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520935D16DBACAA00767E16 /* BeeMessage+ActiveRecordTest.m */; };
+		2520938316DBACAB00767E16 /* BeeMessage+HTTPTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520935E16DBACAA00767E16 /* BeeMessage+HTTPTest.mm */; };
+		2520938416DBACAB00767E16 /* BeeMessage+JSONTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520935F16DBACAA00767E16 /* BeeMessage+JSONTest.mm */; };
+		2520938516DBACAB00767E16 /* BeeMessage+XMLTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520936016DBACAA00767E16 /* BeeMessage+XMLTest.mm */; };
+		2520938616DBACAB00767E16 /* NSArray+BeeExtensionTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520936116DBACAA00767E16 /* NSArray+BeeExtensionTest.mm */; };
+		2520938716DBACAB00767E16 /* NSData+BeeExtensionTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520936216DBACAA00767E16 /* NSData+BeeExtensionTest.mm */; };
+		2520938816DBACAB00767E16 /* NSDate+BeeExtensionTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520936316DBACAA00767E16 /* NSDate+BeeExtensionTest.mm */; };
+		2520938916DBACAB00767E16 /* NSDictionary+BeeExtensionTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520936416DBACAA00767E16 /* NSDictionary+BeeExtensionTest.mm */; };
+		2520938A16DBACAB00767E16 /* NSNumber+BeeExtensionTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520936516DBACAA00767E16 /* NSNumber+BeeExtensionTest.mm */; };
+		2520938B16DBACAB00767E16 /* NSObject+BeeDatabaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520936616DBACAA00767E16 /* NSObject+BeeDatabaseTest.m */; };
+		2520938C16DBACAB00767E16 /* NSObject+BeeKeychainTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520936716DBACAA00767E16 /* NSObject+BeeKeychainTest.m */; };
+		2520938D16DBACAB00767E16 /* NSObject+BeeMessageTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520936816DBACAA00767E16 /* NSObject+BeeMessageTest.mm */; };
+		2520938E16DBACAB00767E16 /* NSObject+BeeNotificationTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520936916DBACAA00767E16 /* NSObject+BeeNotificationTest.mm */; };
+		2520938F16DBACAB00767E16 /* NSObject+BeePropertyTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520936A16DBACAA00767E16 /* NSObject+BeePropertyTest.mm */; };
+		2520939016DBACAB00767E16 /* NSObject+BeeRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520936B16DBACAA00767E16 /* NSObject+BeeRequestTest.m */; };
+		2520939116DBACAB00767E16 /* NSObject+BeeTickerTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520936C16DBACAA00767E16 /* NSObject+BeeTickerTest.mm */; };
+		2520939216DBACAB00767E16 /* NSObject+BeeTypeConversionTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520936D16DBACAA00767E16 /* NSObject+BeeTypeConversionTest.mm */; };
+		2520939316DBACAB00767E16 /* NSString+BeeExtensionTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520936E16DBACAA00767E16 /* NSString+BeeExtensionTest.mm */; };
+		252093C616DBACD300767E16 /* Bee_UICameraBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520939716DBACD300767E16 /* Bee_UICameraBoard.m */; };
+		252093C716DBACD300767E16 /* Bee_UIFlowBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520939916DBACD300767E16 /* Bee_UIFlowBoard.m */; };
+		252093C816DBACD300767E16 /* Bee_UITableBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520939B16DBACD300767E16 /* Bee_UITableBoard.m */; };
+		252093C916DBACD300767E16 /* Bee_UIWebBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520939D16DBACD300767E16 /* Bee_UIWebBoard.m */; };
+		252093F016DBAD1A00767E16 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 252093EF16DBAD1A00767E16 /* libsqlite3.dylib */; };
+		252093F216DBAD3F00767E16 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252093F116DBAD3F00767E16 /* AVFoundation.framework */; };
+		252093F816DBAE6900767E16 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252093F716DBAE6900767E16 /* CoreMedia.framework */; };
+		252093FA16DBAE7300767E16 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252093F916DBAE7200767E16 /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +202,302 @@
 		252091B216DBA58500767E16 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		252091B416DBA58500767E16 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		252091B616DBA58500767E16 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		252091BF16DBAAE300767E16 /* ASIHTTPRequest+Bee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASIHTTPRequest+Bee.h"; sourceTree = "<group>"; };
+		252091C016DBAAE300767E16 /* ASIHTTPRequest+Bee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASIHTTPRequest+Bee.m"; sourceTree = "<group>"; };
+		252091C116DBAAE300767E16 /* Bee_Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Debug.h; sourceTree = "<group>"; };
+		252091C216DBAAE300767E16 /* Bee_Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Debug.m; sourceTree = "<group>"; };
+		252091C316DBAAE300767E16 /* Bee_DebugCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugCrashReporter.h; sourceTree = "<group>"; };
+		252091C416DBAAE300767E16 /* Bee_DebugCrashReporter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_DebugCrashReporter.mm; sourceTree = "<group>"; };
+		252091C516DBAAE300767E16 /* Bee_DebugDashBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugDashBoard.h; sourceTree = "<group>"; };
+		252091C616DBAAE300767E16 /* Bee_DebugDashBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugDashBoard.m; sourceTree = "<group>"; };
+		252091C716DBAAE300767E16 /* Bee_DebugDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugDetailView.h; sourceTree = "<group>"; };
+		252091C816DBAAE300767E16 /* Bee_DebugDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugDetailView.m; sourceTree = "<group>"; };
+		252091C916DBAAE300767E16 /* Bee_DebugHeatmapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugHeatmapModel.h; sourceTree = "<group>"; };
+		252091CA16DBAAE300767E16 /* Bee_DebugHeatmapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugHeatmapModel.m; sourceTree = "<group>"; };
+		252091CB16DBAAE300767E16 /* Bee_DebugMemoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugMemoryModel.h; sourceTree = "<group>"; };
+		252091CC16DBAAE300767E16 /* Bee_DebugMemoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugMemoryModel.m; sourceTree = "<group>"; };
+		252091CD16DBAAE300767E16 /* Bee_DebugMessageBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugMessageBoard.h; sourceTree = "<group>"; };
+		252091CE16DBAAE300767E16 /* Bee_DebugMessageBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugMessageBoard.m; sourceTree = "<group>"; };
+		252091CF16DBAAE300767E16 /* Bee_DebugMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugMessageModel.h; sourceTree = "<group>"; };
+		252091D016DBAAE300767E16 /* Bee_DebugMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugMessageModel.m; sourceTree = "<group>"; };
+		252091D116DBAAE300767E16 /* Bee_DebugNetworkBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugNetworkBoard.h; sourceTree = "<group>"; };
+		252091D216DBAAE300767E16 /* Bee_DebugNetworkBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugNetworkBoard.m; sourceTree = "<group>"; };
+		252091D316DBAAE300767E16 /* Bee_DebugNetworkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugNetworkModel.h; sourceTree = "<group>"; };
+		252091D416DBAAE300767E16 /* Bee_DebugNetworkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugNetworkModel.m; sourceTree = "<group>"; };
+		252091D516DBAAE300767E16 /* Bee_DebugPieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugPieView.h; sourceTree = "<group>"; };
+		252091D616DBAAE300767E16 /* Bee_DebugPieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugPieView.m; sourceTree = "<group>"; };
+		252091D716DBAAE300767E16 /* Bee_DebugPlotsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugPlotsView.h; sourceTree = "<group>"; };
+		252091D816DBAAE300767E16 /* Bee_DebugPlotsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugPlotsView.m; sourceTree = "<group>"; };
+		252091D916DBAAE300767E16 /* Bee_DebugSampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugSampleView.h; sourceTree = "<group>"; };
+		252091DA16DBAAE300767E16 /* Bee_DebugSampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugSampleView.m; sourceTree = "<group>"; };
+		252091DB16DBAAE300767E16 /* Bee_DebugSandboxBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugSandboxBoard.h; sourceTree = "<group>"; };
+		252091DC16DBAAE300767E16 /* Bee_DebugSandboxBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugSandboxBoard.m; sourceTree = "<group>"; };
+		252091DD16DBAAE300767E16 /* Bee_DebugUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugUtility.h; sourceTree = "<group>"; };
+		252091DE16DBAAE300767E16 /* Bee_DebugUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugUtility.m; sourceTree = "<group>"; };
+		252091DF16DBAAE300767E16 /* Bee_DebugViewBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugViewBoard.h; sourceTree = "<group>"; };
+		252091E016DBAAE300767E16 /* Bee_DebugViewBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugViewBoard.m; sourceTree = "<group>"; };
+		252091E116DBAAE300767E16 /* Bee_DebugViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugViewModel.h; sourceTree = "<group>"; };
+		252091E216DBAAE300767E16 /* Bee_DebugViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugViewModel.m; sourceTree = "<group>"; };
+		252091E316DBAAE300767E16 /* Bee_DebugWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_DebugWindow.h; sourceTree = "<group>"; };
+		252091E416DBAAE300767E16 /* Bee_DebugWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DebugWindow.m; sourceTree = "<group>"; };
+		252091E516DBAAE300767E16 /* bug@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bug@2x.png"; sourceTree = "<group>"; };
+		252091E616DBAAE300767E16 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		252091E716DBAAE300767E16 /* file@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file@2x.png"; sourceTree = "<group>"; };
+		252091E816DBAAE300767E16 /* folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder@2x.png"; sourceTree = "<group>"; };
+		252091E916DBAAE300767E16 /* heat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heat@2x.png"; sourceTree = "<group>"; };
+		252091EA16DBAAE300767E16 /* tap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tap@2x.png"; sourceTree = "<group>"; };
+		252091EC16DBAAE300767E16 /* Bee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee.h; sourceTree = "<group>"; };
+		252091ED16DBAAE300767E16 /* Bee_Precompile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Precompile.h; sourceTree = "<group>"; };
+		252091EF16DBAAE300767E16 /* Bee_Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Core.h; sourceTree = "<group>"; };
+		252091F116DBAAE300767E16 /* Bee_Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Foundation.h; sourceTree = "<group>"; };
+		252091F216DBAAE300767E16 /* Bee_Foundation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Foundation.mm; sourceTree = "<group>"; };
+		252091F316DBAAE300767E16 /* Bee_Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Log.h; sourceTree = "<group>"; };
+		252091F416DBAAE300767E16 /* Bee_Log.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Log.mm; sourceTree = "<group>"; };
+		252091F516DBAAE300767E16 /* Bee_Performance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Performance.h; sourceTree = "<group>"; };
+		252091F616DBAAE300767E16 /* Bee_Performance.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Performance.mm; sourceTree = "<group>"; };
+		252091F716DBAAE300767E16 /* Bee_Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Runtime.h; sourceTree = "<group>"; };
+		252091F816DBAAE300767E16 /* Bee_Runtime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Runtime.mm; sourceTree = "<group>"; };
+		252091F916DBAAE300767E16 /* Bee_Sandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Sandbox.h; sourceTree = "<group>"; };
+		252091FA16DBAAE300767E16 /* Bee_Sandbox.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Sandbox.mm; sourceTree = "<group>"; };
+		252091FB16DBAAE300767E16 /* Bee_Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Singleton.h; sourceTree = "<group>"; };
+		252091FC16DBAAE300767E16 /* Bee_Singleton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Singleton.mm; sourceTree = "<group>"; };
+		252091FD16DBAAE300767E16 /* Bee_SystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_SystemInfo.h; sourceTree = "<group>"; };
+		252091FE16DBAAE300767E16 /* Bee_SystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_SystemInfo.m; sourceTree = "<group>"; };
+		252091FF16DBAAE300767E16 /* Bee_Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Thread.h; sourceTree = "<group>"; };
+		2520920016DBAAE300767E16 /* Bee_Thread.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Thread.mm; sourceTree = "<group>"; };
+		2520920216DBAAE300767E16 /* NSArray+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BeeExtension.h"; sourceTree = "<group>"; };
+		2520920316DBAAE300767E16 /* NSArray+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BeeExtension.m"; sourceTree = "<group>"; };
+		2520920416DBAAE300767E16 /* NSData+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+BeeExtension.h"; sourceTree = "<group>"; };
+		2520920516DBAAE300767E16 /* NSData+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+BeeExtension.m"; sourceTree = "<group>"; };
+		2520920616DBAAE300767E16 /* NSDate+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BeeExtension.h"; sourceTree = "<group>"; };
+		2520920716DBAAE300767E16 /* NSDate+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BeeExtension.m"; sourceTree = "<group>"; };
+		2520920816DBAAE300767E16 /* NSDictionary+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BeeExtension.h"; sourceTree = "<group>"; };
+		2520920916DBAAE300767E16 /* NSDictionary+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BeeExtension.m"; sourceTree = "<group>"; };
+		2520920A16DBAAE300767E16 /* NSNumber+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+BeeExtension.h"; sourceTree = "<group>"; };
+		2520920B16DBAAE300767E16 /* NSNumber+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+BeeExtension.m"; sourceTree = "<group>"; };
+		2520920C16DBAAE300767E16 /* NSObject+BeeNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeNotification.h"; sourceTree = "<group>"; };
+		2520920D16DBAAE300767E16 /* NSObject+BeeNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeNotification.m"; sourceTree = "<group>"; };
+		2520920E16DBAAE300767E16 /* NSObject+BeeProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeProperty.h"; sourceTree = "<group>"; };
+		2520920F16DBAAE300767E16 /* NSObject+BeeProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeProperty.m"; sourceTree = "<group>"; };
+		2520921016DBAAE300767E16 /* NSObject+BeeTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeTicker.h"; sourceTree = "<group>"; };
+		2520921116DBAAE300767E16 /* NSObject+BeeTicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeTicker.m"; sourceTree = "<group>"; };
+		2520921216DBAAE300767E16 /* NSObject+BeeTypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeTypeConversion.h"; sourceTree = "<group>"; };
+		2520921316DBAAE300767E16 /* NSObject+BeeTypeConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeTypeConversion.m"; sourceTree = "<group>"; };
+		2520921416DBAAE300767E16 /* NSString+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BeeExtension.h"; sourceTree = "<group>"; };
+		2520921516DBAAE300767E16 /* NSString+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BeeExtension.m"; sourceTree = "<group>"; };
+		2520921716DBAAE300767E16 /* Bee_Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Network.h; sourceTree = "<group>"; };
+		2520921816DBAAE300767E16 /* Bee_Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Network.m; sourceTree = "<group>"; };
+		2520921916DBAAE300767E16 /* Bee_Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Request.h; sourceTree = "<group>"; };
+		2520921A16DBAAE300767E16 /* Bee_Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Request.m; sourceTree = "<group>"; };
+		2520921B16DBAAE300767E16 /* Bee_RequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_RequestQueue.h; sourceTree = "<group>"; };
+		2520921C16DBAAE300767E16 /* Bee_RequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_RequestQueue.m; sourceTree = "<group>"; };
+		2520921E16DBAAE300767E16 /* NSObject+BeeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeRequest.h"; sourceTree = "<group>"; };
+		2520921F16DBAAE300767E16 /* NSObject+BeeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeRequest.m"; sourceTree = "<group>"; };
+		2520922116DBAAE300767E16 /* Bee_ActiveBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_ActiveBase.h; sourceTree = "<group>"; };
+		2520922216DBAAE300767E16 /* Bee_ActiveBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_ActiveBase.m; sourceTree = "<group>"; };
+		2520922316DBAAE300767E16 /* Bee_ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_ActiveRecord.h; sourceTree = "<group>"; };
+		2520922416DBAAE300767E16 /* Bee_ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_ActiveRecord.m; sourceTree = "<group>"; };
+		2520922516DBAAE300767E16 /* Bee_Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Cache.h; sourceTree = "<group>"; };
+		2520922616DBAAE300767E16 /* Bee_Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Cache.m; sourceTree = "<group>"; };
+		2520922716DBAAE300767E16 /* Bee_Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Database.h; sourceTree = "<group>"; };
+		2520922816DBAAE300767E16 /* Bee_Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Database.m; sourceTree = "<group>"; };
+		2520922916DBAAE300767E16 /* Bee_Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Keychain.h; sourceTree = "<group>"; };
+		2520922A16DBAAE300767E16 /* Bee_Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Keychain.m; sourceTree = "<group>"; };
+		2520922B16DBAAE300767E16 /* Bee_Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Storage.h; sourceTree = "<group>"; };
+		2520922C16DBAAE300767E16 /* Bee_Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Storage.m; sourceTree = "<group>"; };
+		2520922E16DBAAE300767E16 /* NSObject+BeeDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeDatabase.h"; sourceTree = "<group>"; };
+		2520922F16DBAAE300767E16 /* NSObject+BeeDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeDatabase.m"; sourceTree = "<group>"; };
+		2520923016DBAAE300767E16 /* NSObject+BeeKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeKeychain.h"; sourceTree = "<group>"; };
+		2520923116DBAAE300767E16 /* NSObject+BeeKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeKeychain.m"; sourceTree = "<group>"; };
+		2520923316DBAAE300767E16 /* Bee_MVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_MVC.h; sourceTree = "<group>"; };
+		2520923516DBAAE300767E16 /* Bee_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Controller.h; sourceTree = "<group>"; };
+		2520923616DBAAE300767E16 /* Bee_Controller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Controller.mm; sourceTree = "<group>"; };
+		2520923716DBAAE300767E16 /* Bee_Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Message.h; sourceTree = "<group>"; };
+		2520923816DBAAE300767E16 /* Bee_Message.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Message.mm; sourceTree = "<group>"; };
+		2520923916DBAAE300767E16 /* Bee_MessageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_MessageQueue.h; sourceTree = "<group>"; };
+		2520923A16DBAAE300767E16 /* Bee_MessageQueue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_MessageQueue.mm; sourceTree = "<group>"; };
+		2520923C16DBAAE300767E16 /* BeeMessage+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeMessage+ActiveRecord.h"; sourceTree = "<group>"; };
+		2520923D16DBAAE300767E16 /* BeeMessage+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BeeMessage+ActiveRecord.m"; sourceTree = "<group>"; };
+		2520923E16DBAAE300767E16 /* BeeMessage+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeMessage+HTTP.h"; sourceTree = "<group>"; };
+		2520923F16DBAAE300767E16 /* BeeMessage+HTTP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "BeeMessage+HTTP.mm"; sourceTree = "<group>"; };
+		2520924016DBAAE300767E16 /* BeeMessage+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeMessage+JSON.h"; sourceTree = "<group>"; };
+		2520924116DBAAE300767E16 /* BeeMessage+JSON.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "BeeMessage+JSON.mm"; sourceTree = "<group>"; };
+		2520924216DBAAE300767E16 /* BeeMessage+XML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeMessage+XML.h"; sourceTree = "<group>"; };
+		2520924316DBAAE300767E16 /* BeeMessage+XML.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "BeeMessage+XML.mm"; sourceTree = "<group>"; };
+		2520924416DBAAE300767E16 /* NSObject+BeeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeMessage.h"; sourceTree = "<group>"; };
+		2520924516DBAAE300767E16 /* NSObject+BeeMessage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSObject+BeeMessage.mm"; sourceTree = "<group>"; };
+		2520924716DBAAE300767E16 /* Bee_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Model.h; sourceTree = "<group>"; };
+		2520924816DBAAE300767E16 /* Bee_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Model.m; sourceTree = "<group>"; };
+		2520924A16DBAAE300767E16 /* Bee_UIActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIActionSheet.h; sourceTree = "<group>"; };
+		2520924B16DBAAE300767E16 /* Bee_UIActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIActionSheet.m; sourceTree = "<group>"; };
+		2520924C16DBAAE300767E16 /* Bee_UIActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIActivityIndicatorView.h; sourceTree = "<group>"; };
+		2520924D16DBAAE300767E16 /* Bee_UIActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIActivityIndicatorView.m; sourceTree = "<group>"; };
+		2520924E16DBAAE300767E16 /* Bee_UIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIAlertView.h; sourceTree = "<group>"; };
+		2520924F16DBAAE300767E16 /* Bee_UIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIAlertView.m; sourceTree = "<group>"; };
+		2520925016DBAAE300767E16 /* Bee_UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIButton.h; sourceTree = "<group>"; };
+		2520925116DBAAE300767E16 /* Bee_UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIButton.m; sourceTree = "<group>"; };
+		2520925216DBAAE300767E16 /* Bee_UIDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIDatePicker.h; sourceTree = "<group>"; };
+		2520925316DBAAE300767E16 /* Bee_UIDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIDatePicker.m; sourceTree = "<group>"; };
+		2520925416DBAAE300767E16 /* Bee_UIGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIGridCell.h; sourceTree = "<group>"; };
+		2520925516DBAAE300767E16 /* Bee_UIGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIGridCell.m; sourceTree = "<group>"; };
+		2520925616DBAAE300767E16 /* Bee_UIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIImageView.h; sourceTree = "<group>"; };
+		2520925716DBAAE300767E16 /* Bee_UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIImageView.m; sourceTree = "<group>"; };
+		2520925816DBAAE300767E16 /* Bee_UIKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIKeyboard.h; sourceTree = "<group>"; };
+		2520925916DBAAE300767E16 /* Bee_UIKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIKeyboard.m; sourceTree = "<group>"; };
+		2520925A16DBAAE300767E16 /* Bee_UILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UILabel.h; sourceTree = "<group>"; };
+		2520925B16DBAAE300767E16 /* Bee_UILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UILabel.m; sourceTree = "<group>"; };
+		2520925C16DBAAE300767E16 /* Bee_UIOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIOrientation.h; sourceTree = "<group>"; };
+		2520925D16DBAAE300767E16 /* Bee_UIOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIOrientation.m; sourceTree = "<group>"; };
+		2520925E16DBAAE300767E16 /* Bee_UIPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIPageControl.h; sourceTree = "<group>"; };
+		2520925F16DBAAE300767E16 /* Bee_UIPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIPageControl.m; sourceTree = "<group>"; };
+		2520926016DBAAE300767E16 /* Bee_UIProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIProgressView.h; sourceTree = "<group>"; };
+		2520926116DBAAE300767E16 /* Bee_UIProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIProgressView.m; sourceTree = "<group>"; };
+		2520926216DBAAE300767E16 /* Bee_UIPullLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIPullLoader.h; sourceTree = "<group>"; };
+		2520926316DBAAE300767E16 /* Bee_UIPullLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIPullLoader.m; sourceTree = "<group>"; };
+		2520926416DBAAE300767E16 /* Bee_UIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIScrollView.h; sourceTree = "<group>"; };
+		2520926516DBAAE300767E16 /* Bee_UIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIScrollView.m; sourceTree = "<group>"; };
+		2520926616DBAAE300767E16 /* Bee_UISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UISegmentedControl.h; sourceTree = "<group>"; };
+		2520926716DBAAE300767E16 /* Bee_UISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UISegmentedControl.m; sourceTree = "<group>"; };
+		2520926816DBAAE300767E16 /* Bee_UISignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UISignal.h; sourceTree = "<group>"; };
+		2520926916DBAAE300767E16 /* Bee_UISignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UISignal.m; sourceTree = "<group>"; };
+		2520926A16DBAAE300767E16 /* Bee_UITabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITabBar.h; sourceTree = "<group>"; };
+		2520926B16DBAAE300767E16 /* Bee_UITabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITabBar.m; sourceTree = "<group>"; };
+		2520926C16DBAAE300767E16 /* Bee_UITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITextField.h; sourceTree = "<group>"; };
+		2520926D16DBAAE300767E16 /* Bee_UITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITextField.m; sourceTree = "<group>"; };
+		2520926E16DBAAE300767E16 /* Bee_UITextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITextView.h; sourceTree = "<group>"; };
+		2520926F16DBAAE300767E16 /* Bee_UITextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITextView.m; sourceTree = "<group>"; };
+		2520927016DBAAE300767E16 /* Bee_UITipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITipsView.h; sourceTree = "<group>"; };
+		2520927116DBAAE300767E16 /* Bee_UITipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITipsView.m; sourceTree = "<group>"; };
+		2520927216DBAAE300767E16 /* Bee_UIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIWebView.h; sourceTree = "<group>"; };
+		2520927316DBAAE300767E16 /* Bee_UIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIWebView.m; sourceTree = "<group>"; };
+		2520927416DBAAE300767E16 /* Bee_UIZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIZoomView.h; sourceTree = "<group>"; };
+		2520927516DBAAE300767E16 /* Bee_UIZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIZoomView.m; sourceTree = "<group>"; };
+		2520927616DBAAE300767E16 /* Bee_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_View.h; sourceTree = "<group>"; };
+		2520927716DBAAE300767E16 /* Bee_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_View.m; sourceTree = "<group>"; };
+		2520927916DBAAE300767E16 /* CGRect+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGRect+BeeExtension.h"; sourceTree = "<group>"; };
+		2520927A16DBAAE300767E16 /* CGRect+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGRect+BeeExtension.m"; sourceTree = "<group>"; };
+		2520927B16DBAAE300767E16 /* UIColor+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BeeExtension.h"; sourceTree = "<group>"; };
+		2520927C16DBAAE300767E16 /* UIColor+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BeeExtension.m"; sourceTree = "<group>"; };
+		2520927D16DBAAE300767E16 /* UIFont+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+BeeExtension.h"; sourceTree = "<group>"; };
+		2520927E16DBAAE300767E16 /* UIFont+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+BeeExtension.m"; sourceTree = "<group>"; };
+		2520927F16DBAAE300767E16 /* UIImage+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BeeExtension.h"; sourceTree = "<group>"; };
+		2520928016DBAAE300767E16 /* UIImage+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BeeExtension.m"; sourceTree = "<group>"; };
+		2520928116DBAAE300767E16 /* UIView+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BeeExtension.h"; sourceTree = "<group>"; };
+		2520928216DBAAE300767E16 /* UIView+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BeeExtension.m"; sourceTree = "<group>"; };
+		2520928316DBAAE300767E16 /* UIView+BeeUISignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BeeUISignal.h"; sourceTree = "<group>"; };
+		2520928416DBAAE300767E16 /* UIView+BeeUISignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BeeUISignal.m"; sourceTree = "<group>"; };
+		2520928516DBAAE300767E16 /* UIView+HoldGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HoldGesture.h"; sourceTree = "<group>"; };
+		2520928616DBAAE300767E16 /* UIView+HoldGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HoldGesture.m"; sourceTree = "<group>"; };
+		2520928716DBAAE300767E16 /* UIView+PanGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PanGesture.h"; sourceTree = "<group>"; };
+		2520928816DBAAE300767E16 /* UIView+PanGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PanGesture.m"; sourceTree = "<group>"; };
+		2520928916DBAAE300767E16 /* UIView+SwipeGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SwipeGesture.h"; sourceTree = "<group>"; };
+		2520928A16DBAAE300767E16 /* UIView+SwipeGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SwipeGesture.m"; sourceTree = "<group>"; };
+		2520928B16DBAAE300767E16 /* UIView+TapGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TapGesture.h"; sourceTree = "<group>"; };
+		2520928C16DBAAE300767E16 /* UIView+TapGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TapGesture.m"; sourceTree = "<group>"; };
+		2520928E16DBAAE300767E16 /* Bee_UIBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIBoard.h; sourceTree = "<group>"; };
+		2520928F16DBAAE300767E16 /* Bee_UIBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIBoard.m; sourceTree = "<group>"; };
+		2520929016DBAAE300767E16 /* Bee_UIStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIStack.h; sourceTree = "<group>"; };
+		2520929116DBAAE300767E16 /* Bee_UIStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIStack.m; sourceTree = "<group>"; };
+		2520929216DBAAE300767E16 /* Bee_UIStackGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIStackGroup.h; sourceTree = "<group>"; };
+		2520929316DBAAE300767E16 /* Bee_UIStackGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIStackGroup.m; sourceTree = "<group>"; };
+		2520929416DBAAE300767E16 /* Bee_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_ViewController.h; sourceTree = "<group>"; };
+		2520929516DBAAE300767E16 /* Bee_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_ViewController.m; sourceTree = "<group>"; };
+		2520929716DBAAE300767E16 /* UIViewController+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BeeExtension.h"; sourceTree = "<group>"; };
+		2520929816DBAAE300767E16 /* UIViewController+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BeeExtension.m"; sourceTree = "<group>"; };
+		2520929916DBAAE300767E16 /* UIViewController+BeeUISignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BeeUISignal.h"; sourceTree = "<group>"; };
+		2520929A16DBAAE300767E16 /* UIViewController+BeeUISignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BeeUISignal.m"; sourceTree = "<group>"; };
+		2520929B16DBAAE300767E16 /* UIViewController+UINavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UINavigationBar.h"; sourceTree = "<group>"; };
+		2520929C16DBAAE300767E16 /* UIViewController+UINavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UINavigationBar.m"; sourceTree = "<group>"; };
+		2520930516DBAB3B00767E16 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2520930716DBAB4500767E16 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2520930916DBAB6400767E16 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2520930B16DBAB7300767E16 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2520930D16DBAB8700767E16 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2520930F16DBAB9100767E16 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2520931316DBAC8100767E16 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		2520931416DBAC8100767E16 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		2520931516DBAC8100767E16 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		2520931616DBAC8100767E16 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		2520931716DBAC8100767E16 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		2520931816DBAC8100767E16 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		2520931916DBAC8100767E16 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		2520931A16DBAC8100767E16 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		2520931B16DBAC8100767E16 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		2520931C16DBAC8100767E16 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		2520931D16DBAC8100767E16 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		2520931E16DBAC8100767E16 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		2520931F16DBAC8100767E16 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		2520932016DBAC8100767E16 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		2520932116DBAC8100767E16 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		2520932216DBAC8100767E16 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		2520932316DBAC8100767E16 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		2520932416DBAC8100767E16 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		2520932516DBAC8100767E16 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		2520932616DBAC8100767E16 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		2520932816DBAC8100767E16 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		2520932916DBAC8100767E16 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		2520932A16DBAC8100767E16 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		2520932B16DBAC8100767E16 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		2520932C16DBAC8100767E16 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		2520932D16DBAC8100767E16 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		2520932E16DBAC8100767E16 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		2520932F16DBAC8100767E16 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		2520933016DBAC8100767E16 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		2520933116DBAC8100767E16 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		2520933316DBAC8100767E16 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		2520933416DBAC8100767E16 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		2520933616DBAC8100767E16 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2520933716DBAC8100767E16 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		2520934816DBACAA00767E16 /* Bee_UnitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UnitTest.h; sourceTree = "<group>"; };
+		2520934916DBACAA00767E16 /* Bee_UnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UnitTest.m; sourceTree = "<group>"; };
+		2520934B16DBACAA00767E16 /* Bee_ActiveBaseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_ActiveBaseTest.m; sourceTree = "<group>"; };
+		2520934C16DBACAA00767E16 /* Bee_ActiveRecordTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_ActiveRecordTest.m; sourceTree = "<group>"; };
+		2520934D16DBACAA00767E16 /* Bee_CacheTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_CacheTest.m; sourceTree = "<group>"; };
+		2520934E16DBACAA00767E16 /* Bee_ControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_ControllerTest.m; sourceTree = "<group>"; };
+		2520934F16DBACAA00767E16 /* Bee_DatabaseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_DatabaseTest.m; sourceTree = "<group>"; };
+		2520935016DBACAA00767E16 /* Bee_KeychainTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_KeychainTest.m; sourceTree = "<group>"; };
+		2520935116DBACAA00767E16 /* Bee_LogTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_LogTest.mm; sourceTree = "<group>"; };
+		2520935216DBACAA00767E16 /* Bee_MessageQueueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_MessageQueueTest.m; sourceTree = "<group>"; };
+		2520935316DBACAA00767E16 /* Bee_MessageTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_MessageTest.m; sourceTree = "<group>"; };
+		2520935416DBACAA00767E16 /* Bee_ModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_ModelTest.m; sourceTree = "<group>"; };
+		2520935516DBACAA00767E16 /* Bee_PerformanceTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_PerformanceTest.mm; sourceTree = "<group>"; };
+		2520935616DBACAA00767E16 /* Bee_RequestQueueTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_RequestQueueTest.mm; sourceTree = "<group>"; };
+		2520935716DBACAA00767E16 /* Bee_RequestTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_RequestTest.mm; sourceTree = "<group>"; };
+		2520935816DBACAA00767E16 /* Bee_RuntimeTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_RuntimeTest.mm; sourceTree = "<group>"; };
+		2520935916DBACAA00767E16 /* Bee_SandboxTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_SandboxTest.mm; sourceTree = "<group>"; };
+		2520935A16DBACAA00767E16 /* Bee_SingletonTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_SingletonTest.mm; sourceTree = "<group>"; };
+		2520935B16DBACAA00767E16 /* Bee_SystemInfoTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_SystemInfoTest.mm; sourceTree = "<group>"; };
+		2520935C16DBACAA00767E16 /* Bee_ThreadTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_ThreadTest.mm; sourceTree = "<group>"; };
+		2520935D16DBACAA00767E16 /* BeeMessage+ActiveRecordTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BeeMessage+ActiveRecordTest.m"; sourceTree = "<group>"; };
+		2520935E16DBACAA00767E16 /* BeeMessage+HTTPTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "BeeMessage+HTTPTest.mm"; sourceTree = "<group>"; };
+		2520935F16DBACAA00767E16 /* BeeMessage+JSONTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "BeeMessage+JSONTest.mm"; sourceTree = "<group>"; };
+		2520936016DBACAA00767E16 /* BeeMessage+XMLTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "BeeMessage+XMLTest.mm"; sourceTree = "<group>"; };
+		2520936116DBACAA00767E16 /* NSArray+BeeExtensionTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSArray+BeeExtensionTest.mm"; sourceTree = "<group>"; };
+		2520936216DBACAA00767E16 /* NSData+BeeExtensionTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSData+BeeExtensionTest.mm"; sourceTree = "<group>"; };
+		2520936316DBACAA00767E16 /* NSDate+BeeExtensionTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSDate+BeeExtensionTest.mm"; sourceTree = "<group>"; };
+		2520936416DBACAA00767E16 /* NSDictionary+BeeExtensionTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSDictionary+BeeExtensionTest.mm"; sourceTree = "<group>"; };
+		2520936516DBACAA00767E16 /* NSNumber+BeeExtensionTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSNumber+BeeExtensionTest.mm"; sourceTree = "<group>"; };
+		2520936616DBACAA00767E16 /* NSObject+BeeDatabaseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeDatabaseTest.m"; sourceTree = "<group>"; };
+		2520936716DBACAA00767E16 /* NSObject+BeeKeychainTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeKeychainTest.m"; sourceTree = "<group>"; };
+		2520936816DBACAA00767E16 /* NSObject+BeeMessageTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSObject+BeeMessageTest.mm"; sourceTree = "<group>"; };
+		2520936916DBACAA00767E16 /* NSObject+BeeNotificationTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSObject+BeeNotificationTest.mm"; sourceTree = "<group>"; };
+		2520936A16DBACAA00767E16 /* NSObject+BeePropertyTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSObject+BeePropertyTest.mm"; sourceTree = "<group>"; };
+		2520936B16DBACAA00767E16 /* NSObject+BeeRequestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeRequestTest.m"; sourceTree = "<group>"; };
+		2520936C16DBACAA00767E16 /* NSObject+BeeTickerTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSObject+BeeTickerTest.mm"; sourceTree = "<group>"; };
+		2520936D16DBACAA00767E16 /* NSObject+BeeTypeConversionTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSObject+BeeTypeConversionTest.mm"; sourceTree = "<group>"; };
+		2520936E16DBACAA00767E16 /* NSString+BeeExtensionTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSString+BeeExtensionTest.mm"; sourceTree = "<group>"; };
+		2520939616DBACD300767E16 /* Bee_UICameraBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UICameraBoard.h; sourceTree = "<group>"; };
+		2520939716DBACD300767E16 /* Bee_UICameraBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UICameraBoard.m; sourceTree = "<group>"; };
+		2520939816DBACD300767E16 /* Bee_UIFlowBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIFlowBoard.h; sourceTree = "<group>"; };
+		2520939916DBACD300767E16 /* Bee_UIFlowBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIFlowBoard.m; sourceTree = "<group>"; };
+		2520939A16DBACD300767E16 /* Bee_UITableBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITableBoard.h; sourceTree = "<group>"; };
+		2520939B16DBACD300767E16 /* Bee_UITableBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITableBoard.m; sourceTree = "<group>"; };
+		2520939C16DBACD300767E16 /* Bee_UIWebBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIWebBoard.h; sourceTree = "<group>"; };
+		2520939D16DBACD300767E16 /* Bee_UIWebBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIWebBoard.m; sourceTree = "<group>"; };
+		252093EF16DBAD1A00767E16 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		252093F116DBAD3F00767E16 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		252093F716DBAE6900767E16 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		252093F916DBAE7200767E16 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +505,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				252093FA16DBAE7300767E16 /* CoreVideo.framework in Frameworks */,
+				252093F816DBAE6900767E16 /* CoreMedia.framework in Frameworks */,
+				252093F216DBAD3F00767E16 /* AVFoundation.framework in Frameworks */,
+				252093F016DBAD1A00767E16 /* libsqlite3.dylib in Frameworks */,
+				2520931016DBAB9100767E16 /* SystemConfiguration.framework in Frameworks */,
+				2520930E16DBAB8700767E16 /* Security.framework in Frameworks */,
+				2520930C16DBAB7300767E16 /* QuartzCore.framework in Frameworks */,
+				2520930A16DBAB6400767E16 /* MobileCoreServices.framework in Frameworks */,
+				252091A516DBA58500767E16 /* CoreGraphics.framework in Frameworks */,
+				2520930816DBAB4500767E16 /* CFNetwork.framework in Frameworks */,
+				2520930616DBAB3B00767E16 /* libz.dylib in Frameworks */,
 				252091A116DBA58500767E16 /* UIKit.framework in Frameworks */,
 				252091A316DBA58500767E16 /* Foundation.framework in Frameworks */,
-				252091A516DBA58500767E16 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +527,19 @@
 		2520919116DBA58500767E16 = {
 			isa = PBXGroup;
 			children = (
+				252093F916DBAE7200767E16 /* CoreVideo.framework */,
+				252093F716DBAE6900767E16 /* CoreMedia.framework */,
+				252093F116DBAD3F00767E16 /* AVFoundation.framework */,
+				252093EF16DBAD1A00767E16 /* libsqlite3.dylib */,
+				2520930F16DBAB9100767E16 /* SystemConfiguration.framework */,
+				2520930D16DBAB8700767E16 /* Security.framework */,
+				2520930B16DBAB7300767E16 /* QuartzCore.framework */,
+				2520930916DBAB6400767E16 /* MobileCoreServices.framework */,
+				2520930716DBAB4500767E16 /* CFNetwork.framework */,
+				2520930516DBAB3B00767E16 /* libz.dylib */,
 				252091A616DBA58500767E16 /* no320list */,
 				2520919F16DBA58500767E16 /* Frameworks */,
+				252091BD16DBAAE300767E16 /* vendor */,
 				2520919D16DBA58500767E16 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +584,507 @@
 				252091B616DBA58500767E16 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		252091BD16DBAAE300767E16 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				2520939416DBACD300767E16 /* BeeTemplates */,
+				2520934716DBACAA00767E16 /* BeeUnitTest */,
+				2520931116DBAC8100767E16 /* External */,
+				252091BE16DBAAE300767E16 /* BeeDebugger */,
+				252091EB16DBAAE300767E16 /* BeeFramework */,
+			);
+			path = vendor;
+			sourceTree = SOURCE_ROOT;
+		};
+		252091BE16DBAAE300767E16 /* BeeDebugger */ = {
+			isa = PBXGroup;
+			children = (
+				252091BF16DBAAE300767E16 /* ASIHTTPRequest+Bee.h */,
+				252091C016DBAAE300767E16 /* ASIHTTPRequest+Bee.m */,
+				252091C116DBAAE300767E16 /* Bee_Debug.h */,
+				252091C216DBAAE300767E16 /* Bee_Debug.m */,
+				252091C316DBAAE300767E16 /* Bee_DebugCrashReporter.h */,
+				252091C416DBAAE300767E16 /* Bee_DebugCrashReporter.mm */,
+				252091C516DBAAE300767E16 /* Bee_DebugDashBoard.h */,
+				252091C616DBAAE300767E16 /* Bee_DebugDashBoard.m */,
+				252091C716DBAAE300767E16 /* Bee_DebugDetailView.h */,
+				252091C816DBAAE300767E16 /* Bee_DebugDetailView.m */,
+				252091C916DBAAE300767E16 /* Bee_DebugHeatmapModel.h */,
+				252091CA16DBAAE300767E16 /* Bee_DebugHeatmapModel.m */,
+				252091CB16DBAAE300767E16 /* Bee_DebugMemoryModel.h */,
+				252091CC16DBAAE300767E16 /* Bee_DebugMemoryModel.m */,
+				252091CD16DBAAE300767E16 /* Bee_DebugMessageBoard.h */,
+				252091CE16DBAAE300767E16 /* Bee_DebugMessageBoard.m */,
+				252091CF16DBAAE300767E16 /* Bee_DebugMessageModel.h */,
+				252091D016DBAAE300767E16 /* Bee_DebugMessageModel.m */,
+				252091D116DBAAE300767E16 /* Bee_DebugNetworkBoard.h */,
+				252091D216DBAAE300767E16 /* Bee_DebugNetworkBoard.m */,
+				252091D316DBAAE300767E16 /* Bee_DebugNetworkModel.h */,
+				252091D416DBAAE300767E16 /* Bee_DebugNetworkModel.m */,
+				252091D516DBAAE300767E16 /* Bee_DebugPieView.h */,
+				252091D616DBAAE300767E16 /* Bee_DebugPieView.m */,
+				252091D716DBAAE300767E16 /* Bee_DebugPlotsView.h */,
+				252091D816DBAAE300767E16 /* Bee_DebugPlotsView.m */,
+				252091D916DBAAE300767E16 /* Bee_DebugSampleView.h */,
+				252091DA16DBAAE300767E16 /* Bee_DebugSampleView.m */,
+				252091DB16DBAAE300767E16 /* Bee_DebugSandboxBoard.h */,
+				252091DC16DBAAE300767E16 /* Bee_DebugSandboxBoard.m */,
+				252091DD16DBAAE300767E16 /* Bee_DebugUtility.h */,
+				252091DE16DBAAE300767E16 /* Bee_DebugUtility.m */,
+				252091DF16DBAAE300767E16 /* Bee_DebugViewBoard.h */,
+				252091E016DBAAE300767E16 /* Bee_DebugViewBoard.m */,
+				252091E116DBAAE300767E16 /* Bee_DebugViewModel.h */,
+				252091E216DBAAE300767E16 /* Bee_DebugViewModel.m */,
+				252091E316DBAAE300767E16 /* Bee_DebugWindow.h */,
+				252091E416DBAAE300767E16 /* Bee_DebugWindow.m */,
+				252091E516DBAAE300767E16 /* bug@2x.png */,
+				252091E616DBAAE300767E16 /* close@2x.png */,
+				252091E716DBAAE300767E16 /* file@2x.png */,
+				252091E816DBAAE300767E16 /* folder@2x.png */,
+				252091E916DBAAE300767E16 /* heat@2x.png */,
+				252091EA16DBAAE300767E16 /* tap@2x.png */,
+			);
+			path = BeeDebugger;
+			sourceTree = "<group>";
+		};
+		252091EB16DBAAE300767E16 /* BeeFramework */ = {
+			isa = PBXGroup;
+			children = (
+				252091EC16DBAAE300767E16 /* Bee.h */,
+				252091ED16DBAAE300767E16 /* Bee_Precompile.h */,
+				252091EE16DBAAE300767E16 /* Core */,
+				2520923216DBAAE300767E16 /* MVC */,
+			);
+			path = BeeFramework;
+			sourceTree = "<group>";
+		};
+		252091EE16DBAAE300767E16 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				252091EF16DBAAE300767E16 /* Bee_Core.h */,
+				252091F016DBAAE300767E16 /* Foundation */,
+				2520921616DBAAE300767E16 /* Network */,
+				2520922016DBAAE300767E16 /* Storage */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		252091F016DBAAE300767E16 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				252091F116DBAAE300767E16 /* Bee_Foundation.h */,
+				252091F216DBAAE300767E16 /* Bee_Foundation.mm */,
+				252091F316DBAAE300767E16 /* Bee_Log.h */,
+				252091F416DBAAE300767E16 /* Bee_Log.mm */,
+				252091F516DBAAE300767E16 /* Bee_Performance.h */,
+				252091F616DBAAE300767E16 /* Bee_Performance.mm */,
+				252091F716DBAAE300767E16 /* Bee_Runtime.h */,
+				252091F816DBAAE300767E16 /* Bee_Runtime.mm */,
+				252091F916DBAAE300767E16 /* Bee_Sandbox.h */,
+				252091FA16DBAAE300767E16 /* Bee_Sandbox.mm */,
+				252091FB16DBAAE300767E16 /* Bee_Singleton.h */,
+				252091FC16DBAAE300767E16 /* Bee_Singleton.mm */,
+				252091FD16DBAAE300767E16 /* Bee_SystemInfo.h */,
+				252091FE16DBAAE300767E16 /* Bee_SystemInfo.m */,
+				252091FF16DBAAE300767E16 /* Bee_Thread.h */,
+				2520920016DBAAE300767E16 /* Bee_Thread.mm */,
+				2520920116DBAAE300767E16 /* Extension */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		2520920116DBAAE300767E16 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2520920216DBAAE300767E16 /* NSArray+BeeExtension.h */,
+				2520920316DBAAE300767E16 /* NSArray+BeeExtension.m */,
+				2520920416DBAAE300767E16 /* NSData+BeeExtension.h */,
+				2520920516DBAAE300767E16 /* NSData+BeeExtension.m */,
+				2520920616DBAAE300767E16 /* NSDate+BeeExtension.h */,
+				2520920716DBAAE300767E16 /* NSDate+BeeExtension.m */,
+				2520920816DBAAE300767E16 /* NSDictionary+BeeExtension.h */,
+				2520920916DBAAE300767E16 /* NSDictionary+BeeExtension.m */,
+				2520920A16DBAAE300767E16 /* NSNumber+BeeExtension.h */,
+				2520920B16DBAAE300767E16 /* NSNumber+BeeExtension.m */,
+				2520920C16DBAAE300767E16 /* NSObject+BeeNotification.h */,
+				2520920D16DBAAE300767E16 /* NSObject+BeeNotification.m */,
+				2520920E16DBAAE300767E16 /* NSObject+BeeProperty.h */,
+				2520920F16DBAAE300767E16 /* NSObject+BeeProperty.m */,
+				2520921016DBAAE300767E16 /* NSObject+BeeTicker.h */,
+				2520921116DBAAE300767E16 /* NSObject+BeeTicker.m */,
+				2520921216DBAAE300767E16 /* NSObject+BeeTypeConversion.h */,
+				2520921316DBAAE300767E16 /* NSObject+BeeTypeConversion.m */,
+				2520921416DBAAE300767E16 /* NSString+BeeExtension.h */,
+				2520921516DBAAE300767E16 /* NSString+BeeExtension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2520921616DBAAE300767E16 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2520921716DBAAE300767E16 /* Bee_Network.h */,
+				2520921816DBAAE300767E16 /* Bee_Network.m */,
+				2520921916DBAAE300767E16 /* Bee_Request.h */,
+				2520921A16DBAAE300767E16 /* Bee_Request.m */,
+				2520921B16DBAAE300767E16 /* Bee_RequestQueue.h */,
+				2520921C16DBAAE300767E16 /* Bee_RequestQueue.m */,
+				2520921D16DBAAE300767E16 /* Extension */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2520921D16DBAAE300767E16 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2520921E16DBAAE300767E16 /* NSObject+BeeRequest.h */,
+				2520921F16DBAAE300767E16 /* NSObject+BeeRequest.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2520922016DBAAE300767E16 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				2520922116DBAAE300767E16 /* Bee_ActiveBase.h */,
+				2520922216DBAAE300767E16 /* Bee_ActiveBase.m */,
+				2520922316DBAAE300767E16 /* Bee_ActiveRecord.h */,
+				2520922416DBAAE300767E16 /* Bee_ActiveRecord.m */,
+				2520922516DBAAE300767E16 /* Bee_Cache.h */,
+				2520922616DBAAE300767E16 /* Bee_Cache.m */,
+				2520922716DBAAE300767E16 /* Bee_Database.h */,
+				2520922816DBAAE300767E16 /* Bee_Database.m */,
+				2520922916DBAAE300767E16 /* Bee_Keychain.h */,
+				2520922A16DBAAE300767E16 /* Bee_Keychain.m */,
+				2520922B16DBAAE300767E16 /* Bee_Storage.h */,
+				2520922C16DBAAE300767E16 /* Bee_Storage.m */,
+				2520922D16DBAAE300767E16 /* Extension */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		2520922D16DBAAE300767E16 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2520922E16DBAAE300767E16 /* NSObject+BeeDatabase.h */,
+				2520922F16DBAAE300767E16 /* NSObject+BeeDatabase.m */,
+				2520923016DBAAE300767E16 /* NSObject+BeeKeychain.h */,
+				2520923116DBAAE300767E16 /* NSObject+BeeKeychain.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2520923216DBAAE300767E16 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				2520923316DBAAE300767E16 /* Bee_MVC.h */,
+				2520923416DBAAE300767E16 /* Controller */,
+				2520924616DBAAE300767E16 /* Model */,
+				2520924916DBAAE300767E16 /* View */,
+				2520928D16DBAAE300767E16 /* ViewController */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		2520923416DBAAE300767E16 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2520923516DBAAE300767E16 /* Bee_Controller.h */,
+				2520923616DBAAE300767E16 /* Bee_Controller.mm */,
+				2520923716DBAAE300767E16 /* Bee_Message.h */,
+				2520923816DBAAE300767E16 /* Bee_Message.mm */,
+				2520923916DBAAE300767E16 /* Bee_MessageQueue.h */,
+				2520923A16DBAAE300767E16 /* Bee_MessageQueue.mm */,
+				2520923B16DBAAE300767E16 /* Extension */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2520923B16DBAAE300767E16 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2520923C16DBAAE300767E16 /* BeeMessage+ActiveRecord.h */,
+				2520923D16DBAAE300767E16 /* BeeMessage+ActiveRecord.m */,
+				2520923E16DBAAE300767E16 /* BeeMessage+HTTP.h */,
+				2520923F16DBAAE300767E16 /* BeeMessage+HTTP.mm */,
+				2520924016DBAAE300767E16 /* BeeMessage+JSON.h */,
+				2520924116DBAAE300767E16 /* BeeMessage+JSON.mm */,
+				2520924216DBAAE300767E16 /* BeeMessage+XML.h */,
+				2520924316DBAAE300767E16 /* BeeMessage+XML.mm */,
+				2520924416DBAAE300767E16 /* NSObject+BeeMessage.h */,
+				2520924516DBAAE300767E16 /* NSObject+BeeMessage.mm */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2520924616DBAAE300767E16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2520924716DBAAE300767E16 /* Bee_Model.h */,
+				2520924816DBAAE300767E16 /* Bee_Model.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2520924916DBAAE300767E16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2520924A16DBAAE300767E16 /* Bee_UIActionSheet.h */,
+				2520924B16DBAAE300767E16 /* Bee_UIActionSheet.m */,
+				2520924C16DBAAE300767E16 /* Bee_UIActivityIndicatorView.h */,
+				2520924D16DBAAE300767E16 /* Bee_UIActivityIndicatorView.m */,
+				2520924E16DBAAE300767E16 /* Bee_UIAlertView.h */,
+				2520924F16DBAAE300767E16 /* Bee_UIAlertView.m */,
+				2520925016DBAAE300767E16 /* Bee_UIButton.h */,
+				2520925116DBAAE300767E16 /* Bee_UIButton.m */,
+				2520925216DBAAE300767E16 /* Bee_UIDatePicker.h */,
+				2520925316DBAAE300767E16 /* Bee_UIDatePicker.m */,
+				2520925416DBAAE300767E16 /* Bee_UIGridCell.h */,
+				2520925516DBAAE300767E16 /* Bee_UIGridCell.m */,
+				2520925616DBAAE300767E16 /* Bee_UIImageView.h */,
+				2520925716DBAAE300767E16 /* Bee_UIImageView.m */,
+				2520925816DBAAE300767E16 /* Bee_UIKeyboard.h */,
+				2520925916DBAAE300767E16 /* Bee_UIKeyboard.m */,
+				2520925A16DBAAE300767E16 /* Bee_UILabel.h */,
+				2520925B16DBAAE300767E16 /* Bee_UILabel.m */,
+				2520925C16DBAAE300767E16 /* Bee_UIOrientation.h */,
+				2520925D16DBAAE300767E16 /* Bee_UIOrientation.m */,
+				2520925E16DBAAE300767E16 /* Bee_UIPageControl.h */,
+				2520925F16DBAAE300767E16 /* Bee_UIPageControl.m */,
+				2520926016DBAAE300767E16 /* Bee_UIProgressView.h */,
+				2520926116DBAAE300767E16 /* Bee_UIProgressView.m */,
+				2520926216DBAAE300767E16 /* Bee_UIPullLoader.h */,
+				2520926316DBAAE300767E16 /* Bee_UIPullLoader.m */,
+				2520926416DBAAE300767E16 /* Bee_UIScrollView.h */,
+				2520926516DBAAE300767E16 /* Bee_UIScrollView.m */,
+				2520926616DBAAE300767E16 /* Bee_UISegmentedControl.h */,
+				2520926716DBAAE300767E16 /* Bee_UISegmentedControl.m */,
+				2520926816DBAAE300767E16 /* Bee_UISignal.h */,
+				2520926916DBAAE300767E16 /* Bee_UISignal.m */,
+				2520926A16DBAAE300767E16 /* Bee_UITabBar.h */,
+				2520926B16DBAAE300767E16 /* Bee_UITabBar.m */,
+				2520926C16DBAAE300767E16 /* Bee_UITextField.h */,
+				2520926D16DBAAE300767E16 /* Bee_UITextField.m */,
+				2520926E16DBAAE300767E16 /* Bee_UITextView.h */,
+				2520926F16DBAAE300767E16 /* Bee_UITextView.m */,
+				2520927016DBAAE300767E16 /* Bee_UITipsView.h */,
+				2520927116DBAAE300767E16 /* Bee_UITipsView.m */,
+				2520927216DBAAE300767E16 /* Bee_UIWebView.h */,
+				2520927316DBAAE300767E16 /* Bee_UIWebView.m */,
+				2520927416DBAAE300767E16 /* Bee_UIZoomView.h */,
+				2520927516DBAAE300767E16 /* Bee_UIZoomView.m */,
+				2520927616DBAAE300767E16 /* Bee_View.h */,
+				2520927716DBAAE300767E16 /* Bee_View.m */,
+				2520927816DBAAE300767E16 /* Extension */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2520927816DBAAE300767E16 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2520927916DBAAE300767E16 /* CGRect+BeeExtension.h */,
+				2520927A16DBAAE300767E16 /* CGRect+BeeExtension.m */,
+				2520927B16DBAAE300767E16 /* UIColor+BeeExtension.h */,
+				2520927C16DBAAE300767E16 /* UIColor+BeeExtension.m */,
+				2520927D16DBAAE300767E16 /* UIFont+BeeExtension.h */,
+				2520927E16DBAAE300767E16 /* UIFont+BeeExtension.m */,
+				2520927F16DBAAE300767E16 /* UIImage+BeeExtension.h */,
+				2520928016DBAAE300767E16 /* UIImage+BeeExtension.m */,
+				2520928116DBAAE300767E16 /* UIView+BeeExtension.h */,
+				2520928216DBAAE300767E16 /* UIView+BeeExtension.m */,
+				2520928316DBAAE300767E16 /* UIView+BeeUISignal.h */,
+				2520928416DBAAE300767E16 /* UIView+BeeUISignal.m */,
+				2520928516DBAAE300767E16 /* UIView+HoldGesture.h */,
+				2520928616DBAAE300767E16 /* UIView+HoldGesture.m */,
+				2520928716DBAAE300767E16 /* UIView+PanGesture.h */,
+				2520928816DBAAE300767E16 /* UIView+PanGesture.m */,
+				2520928916DBAAE300767E16 /* UIView+SwipeGesture.h */,
+				2520928A16DBAAE300767E16 /* UIView+SwipeGesture.m */,
+				2520928B16DBAAE300767E16 /* UIView+TapGesture.h */,
+				2520928C16DBAAE300767E16 /* UIView+TapGesture.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2520928D16DBAAE300767E16 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2520928E16DBAAE300767E16 /* Bee_UIBoard.h */,
+				2520928F16DBAAE300767E16 /* Bee_UIBoard.m */,
+				2520929016DBAAE300767E16 /* Bee_UIStack.h */,
+				2520929116DBAAE300767E16 /* Bee_UIStack.m */,
+				2520929216DBAAE300767E16 /* Bee_UIStackGroup.h */,
+				2520929316DBAAE300767E16 /* Bee_UIStackGroup.m */,
+				2520929416DBAAE300767E16 /* Bee_ViewController.h */,
+				2520929516DBAAE300767E16 /* Bee_ViewController.m */,
+				2520929616DBAAE300767E16 /* Extension */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2520929616DBAAE300767E16 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2520929716DBAAE300767E16 /* UIViewController+BeeExtension.h */,
+				2520929816DBAAE300767E16 /* UIViewController+BeeExtension.m */,
+				2520929916DBAAE300767E16 /* UIViewController+BeeUISignal.h */,
+				2520929A16DBAAE300767E16 /* UIViewController+BeeUISignal.m */,
+				2520929B16DBAAE300767E16 /* UIViewController+UINavigationBar.h */,
+				2520929C16DBAAE300767E16 /* UIViewController+UINavigationBar.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2520931116DBAC8100767E16 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				2520931216DBAC8100767E16 /* ASI */,
+				2520932716DBAC8100767E16 /* FMDB */,
+				2520933216DBAC8100767E16 /* JSONKit */,
+				2520933516DBAC8100767E16 /* Reachability */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		2520931216DBAC8100767E16 /* ASI */ = {
+			isa = PBXGroup;
+			children = (
+				2520931316DBAC8100767E16 /* ASIAuthenticationDialog.h */,
+				2520931416DBAC8100767E16 /* ASIAuthenticationDialog.m */,
+				2520931516DBAC8100767E16 /* ASICacheDelegate.h */,
+				2520931616DBAC8100767E16 /* ASIDataCompressor.h */,
+				2520931716DBAC8100767E16 /* ASIDataCompressor.m */,
+				2520931816DBAC8100767E16 /* ASIDataDecompressor.h */,
+				2520931916DBAC8100767E16 /* ASIDataDecompressor.m */,
+				2520931A16DBAC8100767E16 /* ASIDownloadCache.h */,
+				2520931B16DBAC8100767E16 /* ASIDownloadCache.m */,
+				2520931C16DBAC8100767E16 /* ASIFormDataRequest.h */,
+				2520931D16DBAC8100767E16 /* ASIFormDataRequest.m */,
+				2520931E16DBAC8100767E16 /* ASIHTTPRequest.h */,
+				2520931F16DBAC8100767E16 /* ASIHTTPRequest.m */,
+				2520932016DBAC8100767E16 /* ASIHTTPRequestConfig.h */,
+				2520932116DBAC8100767E16 /* ASIHTTPRequestDelegate.h */,
+				2520932216DBAC8100767E16 /* ASIInputStream.h */,
+				2520932316DBAC8100767E16 /* ASIInputStream.m */,
+				2520932416DBAC8100767E16 /* ASINetworkQueue.h */,
+				2520932516DBAC8100767E16 /* ASINetworkQueue.m */,
+				2520932616DBAC8100767E16 /* ASIProgressDelegate.h */,
+			);
+			path = ASI;
+			sourceTree = "<group>";
+		};
+		2520932716DBAC8100767E16 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				2520932816DBAC8100767E16 /* FMDatabase.h */,
+				2520932916DBAC8100767E16 /* FMDatabase.m */,
+				2520932A16DBAC8100767E16 /* FMDatabaseAdditions.h */,
+				2520932B16DBAC8100767E16 /* FMDatabaseAdditions.m */,
+				2520932C16DBAC8100767E16 /* FMDatabasePool.h */,
+				2520932D16DBAC8100767E16 /* FMDatabasePool.m */,
+				2520932E16DBAC8100767E16 /* FMDatabaseQueue.h */,
+				2520932F16DBAC8100767E16 /* FMDatabaseQueue.m */,
+				2520933016DBAC8100767E16 /* FMResultSet.h */,
+				2520933116DBAC8100767E16 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		2520933216DBAC8100767E16 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				2520933316DBAC8100767E16 /* JSONKit.h */,
+				2520933416DBAC8100767E16 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		2520933516DBAC8100767E16 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				2520933616DBAC8100767E16 /* Reachability.h */,
+				2520933716DBAC8100767E16 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		2520934716DBACAA00767E16 /* BeeUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				2520934816DBACAA00767E16 /* Bee_UnitTest.h */,
+				2520934916DBACAA00767E16 /* Bee_UnitTest.m */,
+				2520934A16DBACAA00767E16 /* TestCases */,
+			);
+			path = BeeUnitTest;
+			sourceTree = "<group>";
+		};
+		2520934A16DBACAA00767E16 /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				2520934B16DBACAA00767E16 /* Bee_ActiveBaseTest.m */,
+				2520934C16DBACAA00767E16 /* Bee_ActiveRecordTest.m */,
+				2520934D16DBACAA00767E16 /* Bee_CacheTest.m */,
+				2520934E16DBACAA00767E16 /* Bee_ControllerTest.m */,
+				2520934F16DBACAA00767E16 /* Bee_DatabaseTest.m */,
+				2520935016DBACAA00767E16 /* Bee_KeychainTest.m */,
+				2520935116DBACAA00767E16 /* Bee_LogTest.mm */,
+				2520935216DBACAA00767E16 /* Bee_MessageQueueTest.m */,
+				2520935316DBACAA00767E16 /* Bee_MessageTest.m */,
+				2520935416DBACAA00767E16 /* Bee_ModelTest.m */,
+				2520935516DBACAA00767E16 /* Bee_PerformanceTest.mm */,
+				2520935616DBACAA00767E16 /* Bee_RequestQueueTest.mm */,
+				2520935716DBACAA00767E16 /* Bee_RequestTest.mm */,
+				2520935816DBACAA00767E16 /* Bee_RuntimeTest.mm */,
+				2520935916DBACAA00767E16 /* Bee_SandboxTest.mm */,
+				2520935A16DBACAA00767E16 /* Bee_SingletonTest.mm */,
+				2520935B16DBACAA00767E16 /* Bee_SystemInfoTest.mm */,
+				2520935C16DBACAA00767E16 /* Bee_ThreadTest.mm */,
+				2520935D16DBACAA00767E16 /* BeeMessage+ActiveRecordTest.m */,
+				2520935E16DBACAA00767E16 /* BeeMessage+HTTPTest.mm */,
+				2520935F16DBACAA00767E16 /* BeeMessage+JSONTest.mm */,
+				2520936016DBACAA00767E16 /* BeeMessage+XMLTest.mm */,
+				2520936116DBACAA00767E16 /* NSArray+BeeExtensionTest.mm */,
+				2520936216DBACAA00767E16 /* NSData+BeeExtensionTest.mm */,
+				2520936316DBACAA00767E16 /* NSDate+BeeExtensionTest.mm */,
+				2520936416DBACAA00767E16 /* NSDictionary+BeeExtensionTest.mm */,
+				2520936516DBACAA00767E16 /* NSNumber+BeeExtensionTest.mm */,
+				2520936616DBACAA00767E16 /* NSObject+BeeDatabaseTest.m */,
+				2520936716DBACAA00767E16 /* NSObject+BeeKeychainTest.m */,
+				2520936816DBACAA00767E16 /* NSObject+BeeMessageTest.mm */,
+				2520936916DBACAA00767E16 /* NSObject+BeeNotificationTest.mm */,
+				2520936A16DBACAA00767E16 /* NSObject+BeePropertyTest.mm */,
+				2520936B16DBACAA00767E16 /* NSObject+BeeRequestTest.m */,
+				2520936C16DBACAA00767E16 /* NSObject+BeeTickerTest.mm */,
+				2520936D16DBACAA00767E16 /* NSObject+BeeTypeConversionTest.mm */,
+				2520936E16DBACAA00767E16 /* NSString+BeeExtensionTest.mm */,
+			);
+			path = TestCases;
+			sourceTree = "<group>";
+		};
+		2520939416DBACD300767E16 /* BeeTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				2520939516DBACD300767E16 /* CustomBoard */,
+			);
+			path = BeeTemplates;
+			sourceTree = "<group>";
+		};
+		2520939516DBACD300767E16 /* CustomBoard */ = {
+			isa = PBXGroup;
+			children = (
+				2520939616DBACD300767E16 /* Bee_UICameraBoard.h */,
+				2520939716DBACD300767E16 /* Bee_UICameraBoard.m */,
+				2520939816DBACD300767E16 /* Bee_UIFlowBoard.h */,
+				2520939916DBACD300767E16 /* Bee_UIFlowBoard.m */,
+				2520939A16DBACD300767E16 /* Bee_UITableBoard.h */,
+				2520939B16DBACD300767E16 /* Bee_UITableBoard.m */,
+				2520939C16DBACD300767E16 /* Bee_UIWebBoard.h */,
+				2520939D16DBACD300767E16 /* Bee_UIWebBoard.m */,
+			);
+			path = CustomBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +1142,12 @@
 				252091B316DBA58500767E16 /* Default.png in Resources */,
 				252091B516DBA58500767E16 /* Default@2x.png in Resources */,
 				252091B716DBA58500767E16 /* Default-568h@2x.png in Resources */,
+				252092B016DBAAE300767E16 /* bug@2x.png in Resources */,
+				252092B116DBAAE300767E16 /* close@2x.png in Resources */,
+				252092B216DBAAE300767E16 /* file@2x.png in Resources */,
+				252092B316DBAAE300767E16 /* folder@2x.png in Resources */,
+				252092B416DBAAE300767E16 /* heat@2x.png in Resources */,
+				252092B516DBAAE300767E16 /* tap@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +1160,160 @@
 			files = (
 				252091AD16DBA58500767E16 /* main.m in Sources */,
 				252091B116DBA58500767E16 /* AppDelegate.m in Sources */,
+				2520929D16DBAAE300767E16 /* ASIHTTPRequest+Bee.m in Sources */,
+				2520929E16DBAAE300767E16 /* Bee_Debug.m in Sources */,
+				2520929F16DBAAE300767E16 /* Bee_DebugCrashReporter.mm in Sources */,
+				252092A016DBAAE300767E16 /* Bee_DebugDashBoard.m in Sources */,
+				252092A116DBAAE300767E16 /* Bee_DebugDetailView.m in Sources */,
+				252092A216DBAAE300767E16 /* Bee_DebugHeatmapModel.m in Sources */,
+				252092A316DBAAE300767E16 /* Bee_DebugMemoryModel.m in Sources */,
+				252092A416DBAAE300767E16 /* Bee_DebugMessageBoard.m in Sources */,
+				252092A516DBAAE300767E16 /* Bee_DebugMessageModel.m in Sources */,
+				252092A616DBAAE300767E16 /* Bee_DebugNetworkBoard.m in Sources */,
+				252092A716DBAAE300767E16 /* Bee_DebugNetworkModel.m in Sources */,
+				252092A816DBAAE300767E16 /* Bee_DebugPieView.m in Sources */,
+				252092A916DBAAE300767E16 /* Bee_DebugPlotsView.m in Sources */,
+				252092AA16DBAAE300767E16 /* Bee_DebugSampleView.m in Sources */,
+				252092AB16DBAAE300767E16 /* Bee_DebugSandboxBoard.m in Sources */,
+				252092AC16DBAAE300767E16 /* Bee_DebugUtility.m in Sources */,
+				252092AD16DBAAE300767E16 /* Bee_DebugViewBoard.m in Sources */,
+				252092AE16DBAAE300767E16 /* Bee_DebugViewModel.m in Sources */,
+				252092AF16DBAAE300767E16 /* Bee_DebugWindow.m in Sources */,
+				252092B616DBAAE300767E16 /* Bee_Foundation.mm in Sources */,
+				252092B716DBAAE300767E16 /* Bee_Log.mm in Sources */,
+				252092B816DBAAE300767E16 /* Bee_Performance.mm in Sources */,
+				252092B916DBAAE300767E16 /* Bee_Runtime.mm in Sources */,
+				252092BA16DBAAE300767E16 /* Bee_Sandbox.mm in Sources */,
+				252092BB16DBAAE300767E16 /* Bee_Singleton.mm in Sources */,
+				252092BC16DBAAE300767E16 /* Bee_SystemInfo.m in Sources */,
+				252092BD16DBAAE300767E16 /* Bee_Thread.mm in Sources */,
+				252092BE16DBAAE300767E16 /* NSArray+BeeExtension.m in Sources */,
+				252092BF16DBAAE300767E16 /* NSData+BeeExtension.m in Sources */,
+				252092C016DBAAE300767E16 /* NSDate+BeeExtension.m in Sources */,
+				252092C116DBAAE300767E16 /* NSDictionary+BeeExtension.m in Sources */,
+				252092C216DBAAE300767E16 /* NSNumber+BeeExtension.m in Sources */,
+				252092C316DBAAE300767E16 /* NSObject+BeeNotification.m in Sources */,
+				252092C416DBAAE300767E16 /* NSObject+BeeProperty.m in Sources */,
+				252092C516DBAAE300767E16 /* NSObject+BeeTicker.m in Sources */,
+				252092C616DBAAE300767E16 /* NSObject+BeeTypeConversion.m in Sources */,
+				252092C716DBAAE300767E16 /* NSString+BeeExtension.m in Sources */,
+				252092C816DBAAE300767E16 /* Bee_Network.m in Sources */,
+				252092C916DBAAE300767E16 /* Bee_Request.m in Sources */,
+				252092CA16DBAAE300767E16 /* Bee_RequestQueue.m in Sources */,
+				252092CB16DBAAE300767E16 /* NSObject+BeeRequest.m in Sources */,
+				252092CC16DBAAE300767E16 /* Bee_ActiveBase.m in Sources */,
+				252092CD16DBAAE300767E16 /* Bee_ActiveRecord.m in Sources */,
+				252092CE16DBAAE300767E16 /* Bee_Cache.m in Sources */,
+				252092CF16DBAAE300767E16 /* Bee_Database.m in Sources */,
+				252092D016DBAAE300767E16 /* Bee_Keychain.m in Sources */,
+				252092D116DBAAE300767E16 /* Bee_Storage.m in Sources */,
+				252092D216DBAAE300767E16 /* NSObject+BeeDatabase.m in Sources */,
+				252092D316DBAAE300767E16 /* NSObject+BeeKeychain.m in Sources */,
+				252092D416DBAAE300767E16 /* Bee_Controller.mm in Sources */,
+				252092D516DBAAE300767E16 /* Bee_Message.mm in Sources */,
+				252092D616DBAAE300767E16 /* Bee_MessageQueue.mm in Sources */,
+				252092D716DBAAE300767E16 /* BeeMessage+ActiveRecord.m in Sources */,
+				252092D816DBAAE300767E16 /* BeeMessage+HTTP.mm in Sources */,
+				252092D916DBAAE300767E16 /* BeeMessage+JSON.mm in Sources */,
+				252092DA16DBAAE300767E16 /* BeeMessage+XML.mm in Sources */,
+				252092DB16DBAAE300767E16 /* NSObject+BeeMessage.mm in Sources */,
+				252092DC16DBAAE300767E16 /* Bee_Model.m in Sources */,
+				252092DD16DBAAE300767E16 /* Bee_UIActionSheet.m in Sources */,
+				252092DE16DBAAE300767E16 /* Bee_UIActivityIndicatorView.m in Sources */,
+				252092DF16DBAAE300767E16 /* Bee_UIAlertView.m in Sources */,
+				252092E016DBAAE300767E16 /* Bee_UIButton.m in Sources */,
+				252092E116DBAAE300767E16 /* Bee_UIDatePicker.m in Sources */,
+				252092E216DBAAE300767E16 /* Bee_UIGridCell.m in Sources */,
+				252092E316DBAAE300767E16 /* Bee_UIImageView.m in Sources */,
+				252092E416DBAAE300767E16 /* Bee_UIKeyboard.m in Sources */,
+				252092E516DBAAE300767E16 /* Bee_UILabel.m in Sources */,
+				252092E616DBAAE300767E16 /* Bee_UIOrientation.m in Sources */,
+				252092E716DBAAE300767E16 /* Bee_UIPageControl.m in Sources */,
+				252092E816DBAAE300767E16 /* Bee_UIProgressView.m in Sources */,
+				252092E916DBAAE300767E16 /* Bee_UIPullLoader.m in Sources */,
+				252092EA16DBAAE300767E16 /* Bee_UIScrollView.m in Sources */,
+				252092EB16DBAAE300767E16 /* Bee_UISegmentedControl.m in Sources */,
+				252092EC16DBAAE300767E16 /* Bee_UISignal.m in Sources */,
+				252092ED16DBAAE300767E16 /* Bee_UITabBar.m in Sources */,
+				252092EE16DBAAE300767E16 /* Bee_UITextField.m in Sources */,
+				252092EF16DBAAE300767E16 /* Bee_UITextView.m in Sources */,
+				252092F016DBAAE300767E16 /* Bee_UITipsView.m in Sources */,
+				252092F116DBAAE300767E16 /* Bee_UIWebView.m in Sources */,
+				252092F216DBAAE300767E16 /* Bee_UIZoomView.m in Sources */,
+				252092F316DBAAE300767E16 /* Bee_View.m in Sources */,
+				252092F416DBAAE300767E16 /* CGRect+BeeExtension.m in Sources */,
+				252092F516DBAAE300767E16 /* UIColor+BeeExtension.m in Sources */,
+				252092F616DBAAE300767E16 /* UIFont+BeeExtension.m in Sources */,
+				252092F716DBAAE300767E16 /* UIImage+BeeExtension.m in Sources */,
+				252092F816DBAAE300767E16 /* UIView+BeeExtension.m in Sources */,
+				252092F916DBAAE300767E16 /* UIView+BeeUISignal.m in Sources */,
+				252092FA16DBAAE300767E16 /* UIView+HoldGesture.m in Sources */,
+				252092FB16DBAAE300767E16 /* UIView+PanGesture.m in Sources */,
+				252092FC16DBAAE300767E16 /* UIView+SwipeGesture.m in Sources */,
+				252092FD16DBAAE300767E16 /* UIView+TapGesture.m in Sources */,
+				252092FE16DBAAE300767E16 /* Bee_UIBoard.m in Sources */,
+				252092FF16DBAAE300767E16 /* Bee_UIStack.m in Sources */,
+				2520930016DBAAE300767E16 /* Bee_UIStackGroup.m in Sources */,
+				2520930116DBAAE300767E16 /* Bee_ViewController.m in Sources */,
+				2520930216DBAAE300767E16 /* UIViewController+BeeExtension.m in Sources */,
+				2520930316DBAAE300767E16 /* UIViewController+BeeUISignal.m in Sources */,
+				2520930416DBAAE300767E16 /* UIViewController+UINavigationBar.m in Sources */,
+				2520933816DBAC8100767E16 /* ASIAuthenticationDialog.m in Sources */,
+				2520933916DBAC8100767E16 /* ASIDataCompressor.m in Sources */,
+				2520933A16DBAC8100767E16 /* ASIDataDecompressor.m in Sources */,
+				2520933B16DBAC8100767E16 /* ASIDownloadCache.m in Sources */,
+				2520933C16DBAC8100767E16 /* ASIFormDataRequest.m in Sources */,
+				2520933D16DBAC8100767E16 /* ASIHTTPRequest.m in Sources */,
+				2520933E16DBAC8100767E16 /* ASIInputStream.m in Sources */,
+				2520933F16DBAC8100767E16 /* ASINetworkQueue.m in Sources */,
+				2520934016DBAC8100767E16 /* FMDatabase.m in Sources */,
+				2520934116DBAC8100767E16 /* FMDatabaseAdditions.m in Sources */,
+				2520934216DBAC8100767E16 /* FMDatabasePool.m in Sources */,
+				2520934316DBAC8100767E16 /* FMDatabaseQueue.m in Sources */,
+				2520934416DBAC8100767E16 /* FMResultSet.m in Sources */,
+				2520934516DBAC8100767E16 /* JSONKit.m in Sources */,
+				2520934616DBAC8100767E16 /* Reachability.m in Sources */,
+				2520936F16DBACAB00767E16 /* Bee_UnitTest.m in Sources */,
+				2520937016DBACAB00767E16 /* Bee_ActiveBaseTest.m in Sources */,
+				2520937116DBACAB00767E16 /* Bee_ActiveRecordTest.m in Sources */,
+				2520937216DBACAB00767E16 /* Bee_CacheTest.m in Sources */,
+				2520937316DBACAB00767E16 /* Bee_ControllerTest.m in Sources */,
+				2520937416DBACAB00767E16 /* Bee_DatabaseTest.m in Sources */,
+				2520937516DBACAB00767E16 /* Bee_KeychainTest.m in Sources */,
+				2520937616DBACAB00767E16 /* Bee_LogTest.mm in Sources */,
+				2520937716DBACAB00767E16 /* Bee_MessageQueueTest.m in Sources */,
+				2520937816DBACAB00767E16 /* Bee_MessageTest.m in Sources */,
+				2520937916DBACAB00767E16 /* Bee_ModelTest.m in Sources */,
+				2520937A16DBACAB00767E16 /* Bee_PerformanceTest.mm in Sources */,
+				2520937B16DBACAB00767E16 /* Bee_RequestQueueTest.mm in Sources */,
+				2520937C16DBACAB00767E16 /* Bee_RequestTest.mm in Sources */,
+				2520937D16DBACAB00767E16 /* Bee_RuntimeTest.mm in Sources */,
+				2520937E16DBACAB00767E16 /* Bee_SandboxTest.mm in Sources */,
+				2520937F16DBACAB00767E16 /* Bee_SingletonTest.mm in Sources */,
+				2520938016DBACAB00767E16 /* Bee_SystemInfoTest.mm in Sources */,
+				2520938116DBACAB00767E16 /* Bee_ThreadTest.mm in Sources */,
+				2520938216DBACAB00767E16 /* BeeMessage+ActiveRecordTest.m in Sources */,
+				2520938316DBACAB00767E16 /* BeeMessage+HTTPTest.mm in Sources */,
+				2520938416DBACAB00767E16 /* BeeMessage+JSONTest.mm in Sources */,
+				2520938516DBACAB00767E16 /* BeeMessage+XMLTest.mm in Sources */,
+				2520938616DBACAB00767E16 /* NSArray+BeeExtensionTest.mm in Sources */,
+				2520938716DBACAB00767E16 /* NSData+BeeExtensionTest.mm in Sources */,
+				2520938816DBACAB00767E16 /* NSDate+BeeExtensionTest.mm in Sources */,
+				2520938916DBACAB00767E16 /* NSDictionary+BeeExtensionTest.mm in Sources */,
+				2520938A16DBACAB00767E16 /* NSNumber+BeeExtensionTest.mm in Sources */,
+				2520938B16DBACAB00767E16 /* NSObject+BeeDatabaseTest.m in Sources */,
+				2520938C16DBACAB00767E16 /* NSObject+BeeKeychainTest.m in Sources */,
+				2520938D16DBACAB00767E16 /* NSObject+BeeMessageTest.mm in Sources */,
+				2520938E16DBACAB00767E16 /* NSObject+BeeNotificationTest.mm in Sources */,
+				2520938F16DBACAB00767E16 /* NSObject+BeePropertyTest.mm in Sources */,
+				2520939016DBACAB00767E16 /* NSObject+BeeRequestTest.m in Sources */,
+				2520939116DBACAB00767E16 /* NSObject+BeeTickerTest.mm in Sources */,
+				2520939216DBACAB00767E16 /* NSObject+BeeTypeConversionTest.mm in Sources */,
+				2520939316DBACAB00767E16 /* NSString+BeeExtensionTest.mm in Sources */,
+				252093C616DBACD300767E16 /* Bee_UICameraBoard.m in Sources */,
+				252093C716DBACD300767E16 /* Bee_UIFlowBoard.m in Sources */,
+				252093C816DBACD300767E16 /* Bee_UITableBoard.m in Sources */,
+				252093C916DBACD300767E16 /* Bee_UIWebBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,9 +1382,13 @@
 		252091BB16DBA58500767E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "no320list/no320list-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "no320list/no320list-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -245,9 +1397,13 @@
 		252091BC16DBA58500767E16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "no320list/no320list-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "no320list/no320list-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
