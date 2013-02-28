@@ -186,6 +186,33 @@
 		252093F216DBAD3F00767E16 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252093F116DBAD3F00767E16 /* AVFoundation.framework */; };
 		252093F816DBAE6900767E16 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252093F716DBAE6900767E16 /* CoreMedia.framework */; };
 		252093FA16DBAE7300767E16 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252093F916DBAE7200767E16 /* CoreVideo.framework */; };
+		2520943016DFA12200767E16 /* CatelogBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 252093FD16DFA12200767E16 /* CatelogBoard.m */; };
+		2520943116DFA12200767E16 /* DribbbleBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 252093FF16DFA12200767E16 /* DribbbleBoard.m */; };
+		2520943216DFA12200767E16 /* DribbbleController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2520940116DFA12200767E16 /* DribbbleController.mm */; };
+		2520943316DFA12200767E16 /* DribbbleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520940316DFA12200767E16 /* DribbbleModel.m */; };
+		2520943416DFA12200767E16 /* DribbblePhotoBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520940516DFA12200767E16 /* DribbblePhotoBoard.m */; };
+		2520943516DFA12200767E16 /* Lession10Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520940716DFA12200767E16 /* Lession10Board.m */; };
+		2520943616DFA12200767E16 /* Lession10Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520940916DFA12200767E16 /* Lession10Model.m */; };
+		2520943716DFA12200767E16 /* Lession11Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520940B16DFA12200767E16 /* Lession11Board.m */; };
+		2520943816DFA12200767E16 /* Lession11Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520940D16DFA12200767E16 /* Lession11Model.m */; };
+		2520943916DFA12200767E16 /* Lession1Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520940F16DFA12200767E16 /* Lession1Board.m */; };
+		2520943A16DFA12300767E16 /* Lession2Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520941116DFA12200767E16 /* Lession2Board.m */; };
+		2520943B16DFA12300767E16 /* Lession3Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520941316DFA12200767E16 /* Lession3Board.m */; };
+		2520943C16DFA12300767E16 /* Lession4Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520941516DFA12200767E16 /* Lession4Board.m */; };
+		2520943D16DFA12300767E16 /* Lession5Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520941716DFA12200767E16 /* Lession5Board.m */; };
+		2520943E16DFA12300767E16 /* Lession6Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520941916DFA12200767E16 /* Lession6Board.m */; };
+		2520943F16DFA12300767E16 /* Lession7_1Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520941B16DFA12200767E16 /* Lession7_1Board.m */; };
+		2520944016DFA12300767E16 /* Lession7_2Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520941D16DFA12200767E16 /* Lession7_2Board.m */; };
+		2520944116DFA12300767E16 /* Lession7_3Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520941F16DFA12200767E16 /* Lession7_3Board.m */; };
+		2520944216DFA12300767E16 /* Lession7_4Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520942116DFA12200767E16 /* Lession7_4Board.m */; };
+		2520944316DFA12300767E16 /* Lession7_5Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520942316DFA12200767E16 /* Lession7_5Board.m */; };
+		2520944416DFA12300767E16 /* Lession7_7Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520942516DFA12200767E16 /* Lession7_7Board.m */; };
+		2520944516DFA12300767E16 /* Lession7Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520942716DFA12200767E16 /* Lession7Board.m */; };
+		2520944616DFA12300767E16 /* Lession8Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520942916DFA12200767E16 /* Lession8Board.m */; };
+		2520944716DFA12300767E16 /* Lession9Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520942B16DFA12200767E16 /* Lession9Board.m */; };
+		2520944816DFA12300767E16 /* Lession9Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520942D16DFA12200767E16 /* Lession9Controller.m */; };
+		2520944916DFA12300767E16 /* LessionBaseBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520942F16DFA12200767E16 /* LessionBaseBoard.m */; };
+		2520944D16DFA23F00767E16 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520944C16DFA23F00767E16 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -498,6 +525,60 @@
 		252093F116DBAD3F00767E16 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		252093F716DBAE6900767E16 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		252093F916DBAE7200767E16 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		252093FC16DFA12200767E16 /* CatelogBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatelogBoard.h; sourceTree = "<group>"; };
+		252093FD16DFA12200767E16 /* CatelogBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatelogBoard.m; sourceTree = "<group>"; };
+		252093FE16DFA12200767E16 /* DribbbleBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DribbbleBoard.h; sourceTree = "<group>"; };
+		252093FF16DFA12200767E16 /* DribbbleBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DribbbleBoard.m; sourceTree = "<group>"; };
+		2520940016DFA12200767E16 /* DribbbleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DribbbleController.h; sourceTree = "<group>"; };
+		2520940116DFA12200767E16 /* DribbbleController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DribbbleController.mm; sourceTree = "<group>"; };
+		2520940216DFA12200767E16 /* DribbbleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DribbbleModel.h; sourceTree = "<group>"; };
+		2520940316DFA12200767E16 /* DribbbleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DribbbleModel.m; sourceTree = "<group>"; };
+		2520940416DFA12200767E16 /* DribbblePhotoBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DribbblePhotoBoard.h; sourceTree = "<group>"; };
+		2520940516DFA12200767E16 /* DribbblePhotoBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DribbblePhotoBoard.m; sourceTree = "<group>"; };
+		2520940616DFA12200767E16 /* Lession10Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession10Board.h; sourceTree = "<group>"; };
+		2520940716DFA12200767E16 /* Lession10Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession10Board.m; sourceTree = "<group>"; };
+		2520940816DFA12200767E16 /* Lession10Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession10Model.h; sourceTree = "<group>"; };
+		2520940916DFA12200767E16 /* Lession10Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession10Model.m; sourceTree = "<group>"; };
+		2520940A16DFA12200767E16 /* Lession11Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession11Board.h; sourceTree = "<group>"; };
+		2520940B16DFA12200767E16 /* Lession11Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession11Board.m; sourceTree = "<group>"; };
+		2520940C16DFA12200767E16 /* Lession11Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession11Model.h; sourceTree = "<group>"; };
+		2520940D16DFA12200767E16 /* Lession11Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession11Model.m; sourceTree = "<group>"; };
+		2520940E16DFA12200767E16 /* Lession1Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession1Board.h; sourceTree = "<group>"; };
+		2520940F16DFA12200767E16 /* Lession1Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession1Board.m; sourceTree = "<group>"; };
+		2520941016DFA12200767E16 /* Lession2Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession2Board.h; sourceTree = "<group>"; };
+		2520941116DFA12200767E16 /* Lession2Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession2Board.m; sourceTree = "<group>"; };
+		2520941216DFA12200767E16 /* Lession3Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession3Board.h; sourceTree = "<group>"; };
+		2520941316DFA12200767E16 /* Lession3Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession3Board.m; sourceTree = "<group>"; };
+		2520941416DFA12200767E16 /* Lession4Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession4Board.h; sourceTree = "<group>"; };
+		2520941516DFA12200767E16 /* Lession4Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession4Board.m; sourceTree = "<group>"; };
+		2520941616DFA12200767E16 /* Lession5Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession5Board.h; sourceTree = "<group>"; };
+		2520941716DFA12200767E16 /* Lession5Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession5Board.m; sourceTree = "<group>"; };
+		2520941816DFA12200767E16 /* Lession6Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession6Board.h; sourceTree = "<group>"; };
+		2520941916DFA12200767E16 /* Lession6Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession6Board.m; sourceTree = "<group>"; };
+		2520941A16DFA12200767E16 /* Lession7_1Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession7_1Board.h; sourceTree = "<group>"; };
+		2520941B16DFA12200767E16 /* Lession7_1Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession7_1Board.m; sourceTree = "<group>"; };
+		2520941C16DFA12200767E16 /* Lession7_2Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession7_2Board.h; sourceTree = "<group>"; };
+		2520941D16DFA12200767E16 /* Lession7_2Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession7_2Board.m; sourceTree = "<group>"; };
+		2520941E16DFA12200767E16 /* Lession7_3Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession7_3Board.h; sourceTree = "<group>"; };
+		2520941F16DFA12200767E16 /* Lession7_3Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession7_3Board.m; sourceTree = "<group>"; };
+		2520942016DFA12200767E16 /* Lession7_4Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession7_4Board.h; sourceTree = "<group>"; };
+		2520942116DFA12200767E16 /* Lession7_4Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession7_4Board.m; sourceTree = "<group>"; };
+		2520942216DFA12200767E16 /* Lession7_5Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession7_5Board.h; sourceTree = "<group>"; };
+		2520942316DFA12200767E16 /* Lession7_5Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession7_5Board.m; sourceTree = "<group>"; };
+		2520942416DFA12200767E16 /* Lession7_7Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession7_7Board.h; sourceTree = "<group>"; };
+		2520942516DFA12200767E16 /* Lession7_7Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession7_7Board.m; sourceTree = "<group>"; };
+		2520942616DFA12200767E16 /* Lession7Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession7Board.h; sourceTree = "<group>"; };
+		2520942716DFA12200767E16 /* Lession7Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession7Board.m; sourceTree = "<group>"; };
+		2520942816DFA12200767E16 /* Lession8Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession8Board.h; sourceTree = "<group>"; };
+		2520942916DFA12200767E16 /* Lession8Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession8Board.m; sourceTree = "<group>"; };
+		2520942A16DFA12200767E16 /* Lession9Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession9Board.h; sourceTree = "<group>"; };
+		2520942B16DFA12200767E16 /* Lession9Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession9Board.m; sourceTree = "<group>"; };
+		2520942C16DFA12200767E16 /* Lession9Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lession9Controller.h; sourceTree = "<group>"; };
+		2520942D16DFA12200767E16 /* Lession9Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lession9Controller.m; sourceTree = "<group>"; };
+		2520942E16DFA12200767E16 /* LessionBaseBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessionBaseBoard.h; sourceTree = "<group>"; };
+		2520942F16DFA12200767E16 /* LessionBaseBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessionBaseBoard.m; sourceTree = "<group>"; };
+		2520944B16DFA23F00767E16 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2520944C16DFA23F00767E16 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -527,16 +608,7 @@
 		2520919116DBA58500767E16 = {
 			isa = PBXGroup;
 			children = (
-				252093F916DBAE7200767E16 /* CoreVideo.framework */,
-				252093F716DBAE6900767E16 /* CoreMedia.framework */,
-				252093F116DBAD3F00767E16 /* AVFoundation.framework */,
-				252093EF16DBAD1A00767E16 /* libsqlite3.dylib */,
-				2520930F16DBAB9100767E16 /* SystemConfiguration.framework */,
-				2520930D16DBAB8700767E16 /* Security.framework */,
-				2520930B16DBAB7300767E16 /* QuartzCore.framework */,
-				2520930916DBAB6400767E16 /* MobileCoreServices.framework */,
-				2520930716DBAB4500767E16 /* CFNetwork.framework */,
-				2520930516DBAB3B00767E16 /* libz.dylib */,
+				2520944A16DFA1EC00767E16 /* src */,
 				252091A616DBA58500767E16 /* no320list */,
 				2520919F16DBA58500767E16 /* Frameworks */,
 				252091BD16DBAAE300767E16 /* vendor */,
@@ -555,6 +627,16 @@
 		2520919F16DBA58500767E16 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				252093EF16DBAD1A00767E16 /* libsqlite3.dylib */,
+				2520930516DBAB3B00767E16 /* libz.dylib */,
+				252093F916DBAE7200767E16 /* CoreVideo.framework */,
+				252093F716DBAE6900767E16 /* CoreMedia.framework */,
+				252093F116DBAD3F00767E16 /* AVFoundation.framework */,
+				2520930F16DBAB9100767E16 /* SystemConfiguration.framework */,
+				2520930D16DBAB8700767E16 /* Security.framework */,
+				2520930B16DBAB7300767E16 /* QuartzCore.framework */,
+				2520930916DBAB6400767E16 /* MobileCoreServices.framework */,
+				2520930716DBAB4500767E16 /* CFNetwork.framework */,
 				252091A016DBA58500767E16 /* UIKit.framework */,
 				252091A216DBA58500767E16 /* Foundation.framework */,
 				252091A416DBA58500767E16 /* CoreGraphics.framework */,
@@ -589,6 +671,7 @@
 		252091BD16DBAAE300767E16 /* vendor */ = {
 			isa = PBXGroup;
 			children = (
+				252093FB16DFA12200767E16 /* Lessions */,
 				2520939416DBACD300767E16 /* BeeTemplates */,
 				2520934716DBACAA00767E16 /* BeeUnitTest */,
 				2520931116DBAC8100767E16 /* External */,
@@ -1087,6 +1170,75 @@
 			path = CustomBoard;
 			sourceTree = "<group>";
 		};
+		252093FB16DFA12200767E16 /* Lessions */ = {
+			isa = PBXGroup;
+			children = (
+				252093FC16DFA12200767E16 /* CatelogBoard.h */,
+				252093FD16DFA12200767E16 /* CatelogBoard.m */,
+				252093FE16DFA12200767E16 /* DribbbleBoard.h */,
+				252093FF16DFA12200767E16 /* DribbbleBoard.m */,
+				2520940016DFA12200767E16 /* DribbbleController.h */,
+				2520940116DFA12200767E16 /* DribbbleController.mm */,
+				2520940216DFA12200767E16 /* DribbbleModel.h */,
+				2520940316DFA12200767E16 /* DribbbleModel.m */,
+				2520940416DFA12200767E16 /* DribbblePhotoBoard.h */,
+				2520940516DFA12200767E16 /* DribbblePhotoBoard.m */,
+				2520940616DFA12200767E16 /* Lession10Board.h */,
+				2520940716DFA12200767E16 /* Lession10Board.m */,
+				2520940816DFA12200767E16 /* Lession10Model.h */,
+				2520940916DFA12200767E16 /* Lession10Model.m */,
+				2520940A16DFA12200767E16 /* Lession11Board.h */,
+				2520940B16DFA12200767E16 /* Lession11Board.m */,
+				2520940C16DFA12200767E16 /* Lession11Model.h */,
+				2520940D16DFA12200767E16 /* Lession11Model.m */,
+				2520940E16DFA12200767E16 /* Lession1Board.h */,
+				2520940F16DFA12200767E16 /* Lession1Board.m */,
+				2520941016DFA12200767E16 /* Lession2Board.h */,
+				2520941116DFA12200767E16 /* Lession2Board.m */,
+				2520941216DFA12200767E16 /* Lession3Board.h */,
+				2520941316DFA12200767E16 /* Lession3Board.m */,
+				2520941416DFA12200767E16 /* Lession4Board.h */,
+				2520941516DFA12200767E16 /* Lession4Board.m */,
+				2520941616DFA12200767E16 /* Lession5Board.h */,
+				2520941716DFA12200767E16 /* Lession5Board.m */,
+				2520941816DFA12200767E16 /* Lession6Board.h */,
+				2520941916DFA12200767E16 /* Lession6Board.m */,
+				2520941A16DFA12200767E16 /* Lession7_1Board.h */,
+				2520941B16DFA12200767E16 /* Lession7_1Board.m */,
+				2520941C16DFA12200767E16 /* Lession7_2Board.h */,
+				2520941D16DFA12200767E16 /* Lession7_2Board.m */,
+				2520941E16DFA12200767E16 /* Lession7_3Board.h */,
+				2520941F16DFA12200767E16 /* Lession7_3Board.m */,
+				2520942016DFA12200767E16 /* Lession7_4Board.h */,
+				2520942116DFA12200767E16 /* Lession7_4Board.m */,
+				2520942216DFA12200767E16 /* Lession7_5Board.h */,
+				2520942316DFA12200767E16 /* Lession7_5Board.m */,
+				2520942416DFA12200767E16 /* Lession7_7Board.h */,
+				2520942516DFA12200767E16 /* Lession7_7Board.m */,
+				2520942616DFA12200767E16 /* Lession7Board.h */,
+				2520942716DFA12200767E16 /* Lession7Board.m */,
+				2520942816DFA12200767E16 /* Lession8Board.h */,
+				2520942916DFA12200767E16 /* Lession8Board.m */,
+				2520942A16DFA12200767E16 /* Lession9Board.h */,
+				2520942B16DFA12200767E16 /* Lession9Board.m */,
+				2520942C16DFA12200767E16 /* Lession9Controller.h */,
+				2520942D16DFA12200767E16 /* Lession9Controller.m */,
+				2520942E16DFA12200767E16 /* LessionBaseBoard.h */,
+				2520942F16DFA12200767E16 /* LessionBaseBoard.m */,
+			);
+			name = Lessions;
+			path = ../Lessions;
+			sourceTree = "<group>";
+		};
+		2520944A16DFA1EC00767E16 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2520944B16DFA23F00767E16 /* RootViewController.h */,
+				2520944C16DFA23F00767E16 /* RootViewController.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1314,6 +1466,33 @@
 				252093C716DBACD300767E16 /* Bee_UIFlowBoard.m in Sources */,
 				252093C816DBACD300767E16 /* Bee_UITableBoard.m in Sources */,
 				252093C916DBACD300767E16 /* Bee_UIWebBoard.m in Sources */,
+				2520943016DFA12200767E16 /* CatelogBoard.m in Sources */,
+				2520943116DFA12200767E16 /* DribbbleBoard.m in Sources */,
+				2520943216DFA12200767E16 /* DribbbleController.mm in Sources */,
+				2520943316DFA12200767E16 /* DribbbleModel.m in Sources */,
+				2520943416DFA12200767E16 /* DribbblePhotoBoard.m in Sources */,
+				2520943516DFA12200767E16 /* Lession10Board.m in Sources */,
+				2520943616DFA12200767E16 /* Lession10Model.m in Sources */,
+				2520943716DFA12200767E16 /* Lession11Board.m in Sources */,
+				2520943816DFA12200767E16 /* Lession11Model.m in Sources */,
+				2520943916DFA12200767E16 /* Lession1Board.m in Sources */,
+				2520943A16DFA12300767E16 /* Lession2Board.m in Sources */,
+				2520943B16DFA12300767E16 /* Lession3Board.m in Sources */,
+				2520943C16DFA12300767E16 /* Lession4Board.m in Sources */,
+				2520943D16DFA12300767E16 /* Lession5Board.m in Sources */,
+				2520943E16DFA12300767E16 /* Lession6Board.m in Sources */,
+				2520943F16DFA12300767E16 /* Lession7_1Board.m in Sources */,
+				2520944016DFA12300767E16 /* Lession7_2Board.m in Sources */,
+				2520944116DFA12300767E16 /* Lession7_3Board.m in Sources */,
+				2520944216DFA12300767E16 /* Lession7_4Board.m in Sources */,
+				2520944316DFA12300767E16 /* Lession7_5Board.m in Sources */,
+				2520944416DFA12300767E16 /* Lession7_7Board.m in Sources */,
+				2520944516DFA12300767E16 /* Lession7Board.m in Sources */,
+				2520944616DFA12300767E16 /* Lession8Board.m in Sources */,
+				2520944716DFA12300767E16 /* Lession9Board.m in Sources */,
+				2520944816DFA12300767E16 /* Lession9Controller.m in Sources */,
+				2520944916DFA12300767E16 /* LessionBaseBoard.m in Sources */,
+				2520944D16DFA23F00767E16 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
