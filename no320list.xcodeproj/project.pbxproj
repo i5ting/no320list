@@ -1279,6 +1279,7 @@
 		2520944A16DFA1EC00767E16 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				5D2C6D2616E04B3400EEB5C9 /* viewdeck */,
 				2520944B16DFA23F00767E16 /* RootViewController.h */,
 				2520944C16DFA23F00767E16 /* RootViewController.m */,
 			);
@@ -1319,6 +1320,13 @@
 				5D2C6D0F16E03FD200EEB5C9 /* ViewController.xib */,
 			);
 			name = viewdeckdemo;
+			sourceTree = "<group>";
+		};
+		5D2C6D2616E04B3400EEB5C9 /* viewdeck */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewdeck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
