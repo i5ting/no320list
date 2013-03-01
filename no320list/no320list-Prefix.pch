@@ -18,3 +18,6 @@
 #define BEE_DEVELOPMENT (1)
 #define BEE_LOG (1) 
 #define BEE_DEBUGGER (1)
+
+#import "AppDelegate.h"
+#define SharedAppDelegate ((AppDelegate*)[[UIApplication sharedApplication] delegate])
